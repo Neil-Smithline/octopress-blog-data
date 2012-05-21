@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>---</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="---"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-05-20 15:00:15 EDT"/>
+<meta name="author" content="Neil Smithline"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">---</h1>
+
+
+layout:         post
+title:          "YANBT: Yet Another New Blogging Technology"
+date:           2012-05-14 12:36
+comments:       true
+categories:     [tech, blogging-tech]
+published:      true
+author:         Neil Smithline
+---
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">NanoBlogger Was Killing Me</h2>
+<div class="outline-text-2" id="text-1">
+
+<p><a href="http://bit.ly/wq2Ien">NanoBlogger</a> really looked cool to me 
+(<a href="{{ root<sub>url</sub> }}/blog/categories/blogging-tech">my postings about why I liked it</a>):
+</p><ul>
+<li>Small
+</li>
+<li>Most functionality provided via plugins
+</li>
+<li><a href="http://bit.ly/xOIkfJ">CLI</a> only
+</li>
+<li>It is <a href="http://bit.ly/Mlkg9X">FOSS</a>.
+</li>
+<li>Produced a static site (ie: only serves static pages)
+</li>
+<li>It was built on <a href="http://bit.ly/JbQmzE">Bash</a> &ndash; I thought this was the coolest
+</li>
+</ul>
+
+
+<p>
+I liked it so much that I wrote a CLI for it that was better suited to my personal workflow. I also spent some time integrating it with Emacs. But it had endless problems.
+</p>
+<p>
+It was slow, it did not do anything automatically, frequently required rebuilding of the entire blog, was hard to view on my local machine, isn't really being maintained, doesn't have a real templating system, breaks the RSS feed on special characters such as etc&hellip;
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">Where Next</h2>
+<div class="outline-text-2" id="text-2">
+
+<p>Over the past few weeks I've been looking around for a new blogging system. The only real contender seemed to be <a href="http://bit.ly/Jm1bmc">Jekyll</a>. It is written in <a href="http://bit.ly/KAfYv0">Ruby</a> and used by Github to power Github Pages. It has so many contributors to it that its <a href="http://bit.ly/JetyoE">Github repository</a> has, at the moment, 50+ pull requests.
+</p>
+<p>
+I had nearly chosen Jekyll when I moved to NanoBlogger. I found that the discussion about moving to Jekyll on the <a href="http://bit.ly/JH7cIy">0xdecafbad.com</a> blog really aligned with my thoughts.
+</p>
+<p>
+But, after playing with it a bit, I found that Jekyll was difficult to configure. And I just so liked the Bash thing that NanoBlogger had that I decided to go with NanoBlogger. But now I'm wasting too much of my time fighting with Nanoblogger and I should reconsider Jekyll.
+<!-- more -->
+
+This time, when I was researching Jekyll, I found <a href="http://bit.ly/KT1aFT">Octopress</a>. Octopress is Jekyll on steroids. It provides an automated configuration and maintenance system that takes the pain out of using Jekyll.
+</p>
+<p>
+So now I'm giving Octopress/Jekyll a try. I'll see how it goes. Configuring a site with a <i>hello world</i> blog entry only took a couple of hours. Most of that was just downloading Octopress and reading the docs to figure out what to do. It turned out that configuration was running three <a href="http://bit.ly/KT2jxn">rake</a> commands. 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">Converting From Nanoblogger To Jekyll</h2>
+<div class="outline-text-2" id="text-3">
+
+<p>Because NanoBlogger blog entries are plain text with markup, converting my entire old blog to Octopress was fairly easy as Octopress also uses plain text with markup for blog entries. I ran into two snags. The first one was in Emacs' <a href="http://bit.ly/zhYdcB">Org Mode</a>, my authoring tool. It broke when you had a "+" in the path name of your input files (in my case, in the path of my blog). It took me several hours to find the bug. Once I found it, it was easy to patch and I sent my fix to be included in subsequent Org Mode releases.
+</p>
+<p>
+The second problem was a bit trickier. Octopress was breaking on some of my blog's generated HTML files. The error message gave me the line number and the character number in that line that was causing the error but it omitted to give me the file name. I believe the technical term for that is "Oops!".
+</p>
+<p>
+To find the file that was casing the problem I started to remove blog files using a <a href="http://bit.ly/KT3gpo">binary search</a>-ish style to track the problem file down. This proved more difficult than I thought it should. After much frustration, it occurred to me that the problem was in many blog entries so the binary search wasn't so helpful. So I wiped my blog and started adding one posting at a time. 
+</p>
+<p>
+Even after I found the first posting that caused Octopress, actually Jekyll, to crash, I couldn't figure out what was wrong with the file. The error message said something about non-ASCII characters but I only had ASCII, or so I thought. It turned out that I had copied and pasted some text from my browser and it had inserted a hyphen (-) that was not the ASCII hyphen. To me, they looked identical. 
+</p>
+<p>
+Despite knowing what the problem was, I couldn't automate Emacs or grep to find the offensive hyphens. In Emacs, the search treated ASCII and non-ASCII hyphens the same. I forget the problems I had with grep but I couldn't get it to work either. This meant I was going to have to add one entry at a time to my blog to track down the other problems. Thank you &ndash; NOT!
+</p>
+<p>
+But Jekyll is written in Ruby and Ruby is a scripting language so I have the source code for Jekyll. Being that the error message included a full stack trace, I figured I could update the error message. In the end I just ended up making Jekyll a bit more verbose: it announces which file it is about to process with the message:
+:Processing file <i>myfile</i>.
+</p>
+<p>
+Then I added all my blog entries, ran Jekyll, got the same error message with only the line and character position, but now had the name of the file it was processing when it had a problem.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">Plain Text Blogs Rock!</h2>
+<div class="outline-text-2" id="text-4">
+
+<p> After correcting a couple of entries I noticed that the problem only occurred on hyphens (-) and single quotes ('). Being that both NanoBlogger and Octopress/Jekyll use plain text files for their input, I had a whole bunch of tools to help me fix the problem. 
+</p>
+<p>
+ In the end I ended up turning Emacs failure to distinguish between the ASCII and non-ASCII versions of these characters to my advantage. I did a search-and-replace on all my blog entries replacing hyphens with hyphens and single quotes with single quotes. While Emacs' search found both ASCII and non-ASCII characters, it always replaced them with what I typed as the replacement, ASCII.
+</p>
+<p>
+Then, <i>voila</i>, there was my blog. And my blog looked way better in Octopress than NanoBlogger. Check out a NanoBlogger <a href="http://bit.ly/wq2Ien">sample blog</a> and an Octopress <a href="http://bit.ly/KT1aFT">sample blog</a>. Huge difference. Also, excluding the weak error message from Jekyll (I'll file a bug report on that and I suspect someone will fixed it as Jekyll is so heavily used), I didn't need to do a thing to build and publish the blog. Octopress even pushes the blog to Github automatically. I had written a script to do this automatically for NanoBlogger, but I'd much rather use someone else's perfectly good solution rather than writing my own.
+</p>
+<p>
+I think I'm going to be very happy with Octopress.
+</p>
+</div>
+</div>
+</div>
+
+</body>
+</html>
