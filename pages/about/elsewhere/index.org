@@ -12,6 +12,9 @@ published:      true
 
 #+END_HTML
 
+#+MACRO: relative_link          @<a href="{{ root_url }}$1" title="$2">$3@</a>
+#+MACRO: absolute_link          @<a href="$1" title="$2">$3@</a>
+ 
 Besides {{{relative_link(/about/contact,,directly contacting me)}}}, you can find me at several other locations around the web.
 
 *** Github

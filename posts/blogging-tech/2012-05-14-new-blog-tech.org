@@ -4,7 +4,7 @@ layout:         post
 title:          "YANBT: Yet Another New Blogging Technology"
 date:           2012-05-14 12:36
 comments:       true
-categories:     [tech, blogging-tech]
+categories:     [blogging-tech, octopress, jekyll, nanoblogger]
 published:      true
 author:         Neil Smithline
 ---

@@ -4,7 +4,7 @@ title:             "Sparkleshare: Maybe An Open, Privately Hosted, Dropbox Alter
 layout:            post
 date:              "Thu Dec 15 10:04:43 EST 2011"
 description:       "Sparkleshare is an up-and-coming Dropbox alternative that is ready, or nearly ready, for real use."
-categories:        [tech, cloud, sparkleshare]
+categories:        [tech, cloud-computing, sparkleshare]
 comments:          true
 published:         true
 author:            Neil Smithline

@@ -4,7 +4,7 @@ title:             "SparkleShare Doesn't Sparkle"
 description:       "Why I traded SparkleShare for rsync."
 layout:            post
 date:              2012-05-09 Wed 23:12
-categories:        [tech, cloud, sparkleshare]
+categories:        [tech, cloud-computing, sparkleshare]
 comments:          true         
 published:         true
 author:            Neil Smithline

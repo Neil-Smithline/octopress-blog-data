@@ -4,7 +4,7 @@ title:             "Seems It Really Works"
 layout:            post
 date:              "Sat Dec 10 01:27:23 2011"
 description:       "Quick follow-up to initial posting."
-categories:        [tech, blogging-tech]
+categories:        [tech, blogging-tech, nanoblogger]
 comments:          true
 published:         true
 author:            Neil Smithline

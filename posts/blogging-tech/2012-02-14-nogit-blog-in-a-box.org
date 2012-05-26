@@ -4,7 +4,7 @@ title:             "Blog In A Box (actually, a repo)"
 description:       "A description of how I will, hopefully, evolve my blogging technology into an easily distributable single Git repository."
 date:              "2012-02-15 Wed 22:54:25"
 layout:            post
-categories:        [tech, blogging-tech]
+categories:        [tech, blogging-tech, nanoblogger]
 comments:          true          
 published:         true
 author:            Neil Smithline

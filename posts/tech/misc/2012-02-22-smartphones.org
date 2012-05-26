@@ -5,7 +5,7 @@ title:             "Smartphones Everywhere"
 description:       "Some discussion about the pervasiveness of smartphones."
 layout:            post
 date:              2012-02-22 18:38:14
-categories:        [tech]
+categories:        [tech, mobile, smartphones]
 comments:          true        
 published:         true
 author:            Neil Smithline

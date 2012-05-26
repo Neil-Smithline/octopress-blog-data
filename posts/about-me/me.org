@@ -5,7 +5,7 @@ date:           2012-05-17 13:24
 comments:       true
 sharing:        true
 footer:         true
-published:      true
+published:      false
 ---
 * More About Me
 *** My Resume
@@ -40,7 +40,7 @@ After:
 
 Being that [[http://bit.ly/Kkbh43][AMO Up Top Version Info]] is a restartless add-on, you can install it in just a few seconds and then visit a page on AMO such as the [[http://bit.ly/xYcpv7][Scriptish Add-On page]].
 
-I have also written several UserScripts.  UserScripts are tiny web browser add-ons. Some of those that I've written can be found in my [[http://bit.ly/JkwJHB][UserScripts Github repository]]. If you are running [[http://www.mozilla.org/en-US/firefox/fx/][Mozilla Firefox]] with either the [[http://bit.ly/Kk9A6R][Greasemonkey]] or [[http://bit.ly/Kk9JHu][Scriptish]] (my favorite) add-ons or using [[http://bit.ly/Kk8PdU][Google Chrome]], you can install them and try them out in just a few seconds.
+I have also written several UserScripts.  
 
 *** Contact Me
 You can contact me via email at this address [[/assets/email-images/blog-neilsmithline-com.png]]. You cannot copy-and-paste the address as it is an image. This prevents spam. Sorry about the hassle :-(

@@ -4,7 +4,7 @@ title:             "My New Blogging Technology"
 layout:            post
 date:              "2011-12-07"
 description:       "A description of my new blogging technology and why I love it so. Happy at last."
-categories:        [tech, blogging-tech]
+categories:        [tech, blogging-tech, nanoblogger]
 comments:          true          
 published:         true
 author:            Neil Smithline

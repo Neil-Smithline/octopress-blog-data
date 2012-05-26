@@ -4,6 +4,7 @@ title:             "New NanoBlogger Command-Line"
 description:       "I've written a nearly-complete, new CLI for NanoBlogger, the technology behind this blog."
 date:              "2012-02-14 Tue 13:13:34"
 layout:            post
+categories:        [tech, blogging-tech, nanoblogger]
 comments:          true          
 published:         true
 author:            Neil Smithline

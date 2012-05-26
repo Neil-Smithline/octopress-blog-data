@@ -4,7 +4,7 @@ title:             "Got Tags Working Manually"
 layout:            post
 date:              "Sat Dec 10 20:09:57 EST 2011"
 description:       "Quick follow-up"
-categories:        [blogging-tech,tech]
+categories:        [blogging-tech, tech, nanoblogger]
 comments:          true          
 published:         true
 author:            Neil Smithline
