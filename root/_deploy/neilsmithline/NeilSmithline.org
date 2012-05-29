@@ -11,8 +11,8 @@
 #+HTML: Newton Centre, MA 02459<br/>
 #+HTML: Voice: 408-634-5764&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fax: 206-666-5090
 #+HTML: <br/>
-#+HTML: (Most current resume available at <a href="http://www.neilsmithline.com" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
-#+HTML: <a href="mailto:jobs@neilsmithline.com" title="Contact me via email."><img style="border:0; margin:0; padding:0;" src="http://www.neilsmithline.com/uploads/images/jobs@neilsmithline.com.png" alt="jobs at my homepage domain (ie: 'NeilSmithline.com')"/></a>
+#+HTML: (Most current resume and more information at <a href="http://www.neilsmithline.com" title="My Homepage" target="_blank">www.NeilSmithline.com</a>.)<br/>
+#+HTML:<img style="border:0; margin:0; padding:0;" src="http://www.neilsmithline.com/assets/email-images/jobs-neilsmithline-com.png" alt="jobs at my homepage domain (ie: 'NeilSmithline.com')"/></a>
 #+END_CENTER
 
 * Objective
@@ -39,10 +39,7 @@ I am looking to add my experience and creativity to an exciting engineering team
 - Child is currently healthy, undertaking rehab to recover from a year of bedrest, and looking for a part-time job prior to starting college in September 2012.
 - I am now  anxiously looking to return to the workplace.
 
-**** FINISHED Open Source Developer, January 2011-Present
-:PROPERTIES:
-:ID: 5E94F0AE-CC44-4B35-95B9-61611DDB2E48
-:END:
+**** Open Source Developer, January 2011-Present
 - As time permitted, contributed and created multiple open source projects:
   - Gmail2Gcal Notifier (live demo available [[http://bit.ly/JkCqW9][here]]): [[http://bit.ly/JkCqW9][Gmail2Gcal Notifier]] is an original project that converts Gmail messages deemed important into calendar appointments with notifications. When integrated with an Android phone, this combines Gmail filtering, immediate notification of important emails, and sophisticated calendar notification functionality  such as snooze and nags. A live demo can be found at Gmail2Gcal's [[http://bit.ly/JkCqW9][Github]] repository page. Languages used: /Lua/ and /Shell/.
   - [[http://bit.ly/J7N024][IMAPFilter]]: Added additional examples and submitted a still pending [[http://bit.ly/JiAg7t][pull request]]. Languages used: /Lua/.
@@ -53,10 +50,7 @@ I am looking to add my experience and creativity to an exciting engineering team
   - [[http://bit.ly/HJCSM7][Firefox]] extension: Wrote the [[http://bit.ly/HNR3jj][AMO Up Top Version Info]] Firefox extension to make searching for compatible extensions for Mozilla products more efficient. Languages: /JavaScript/ and some minor /XML/.
 
 *** Security Contractor/Consultant (Newton, MA), June 2008-December 2011
-**** FINISHED Contractor for Aspect Security, August 2011-December 2011
-:PROPERTIES:
-:ID: E6D72E9D-A205-462B-BBBE-DB8A81456410
-:END:
+**** Contractor for Aspect Security, August 2011-December 2011
 - Performed security audits for multiple clients using a combination of manual code review, custom-written scripts, and [[http://bit.ly/Kq5BrJ][Fortify]]'s products.
 - Made improvements to Aspect's proprietary fault recording and report generation tool.  
 
