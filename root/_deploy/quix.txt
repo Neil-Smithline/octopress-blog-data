@@ -34,7 +34,7 @@ drl         javascript:(function(){DIIGO_R_TEST=false;DIIGO_R_SCRIPT=document.cr
 fb		http://www.facebook.com/share.php?u=%r&t=%t							Share the current page on Facebook
 gb		http://www.google.com/bookmarks/mark?op=edit&output=popup&bkmk=%r&title=%t&annotation=%s	Bookmark with Google Bookmarks
 li		javascript:(function(){d=document,l=d.location,f='http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title='+encodeURIComponent(d.title)+'&url='+encodeURIComponent(l.href),a=function(){if(!window.open(f,'News','width=520,height=570,toolbar=0,location=0,status=0,scrollbars=yes')){l.href=f;}};if(/Firefox/.test(navigator.userAgent)){setTimeout(a,0);}else{a();}})()				Share the current page on LinkedIn
-tu	    http://twitter.com/home?status=%s%20%t%20%r							Tweet the current page
+tp	    http://twitter.com/home?status=%s%20%t%20%r							Tweet the current page
 ts       http://search.twitter.com/search?q=%s								Twitter Search
 t       http://twitter.com/%s												Twitter User
 tumblr	javascript:d=document;w=window;e=w.getSelection;k=d.getSelection;x=d.selection;s=(e?e():(k)?k():(x?x.createRange().text:0));f='http://www.tumblr.com/share';l=d.location,e=encodeURIComponent;p='?v=3&u='+e(l.href)%20+'&t='+e(d.title)%20+'&s='+e(s);u=f+p;try{if(!/^(.*\.)?tumblr[^.]*$/.test(l.host))throw(0);tstbklt();}catch(z){a%20=function(){if(!w.open(u,'t','toolbar=0,resizable=0,status=1,width=450,height=430'))l.href=u;};if(/Firefox/.test(navigator.userAgent))setTimeout(a,0);else%20a();}void(0)						Share on Tumblr
