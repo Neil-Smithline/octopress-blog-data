@@ -23,6 +23,7 @@ My email address is:
 You cannot copy-and-paste the address as it is an image. Sorry about the inconvenience but it stops [[http://bit.ly/K5IdjZ][web crawlers]] from sending me spam.
 
 *** Phone
+<<<<<<< HEAD
 You can call me from this web page courtesy of [[http://bit.ly/KoQxgV][Google Voice]]:
   - Click on the "Call Me" icon below.
   - Enter your name and phone number into the widget.
@@ -40,6 +41,9 @@ You can call me from this web page courtesy of [[http://bit.ly/KoQxgV][Google Vo
 #+END_HTML
 
 If you prefer, you can contact me directly at 408-634-5764. (see footnote [1])
+=======
+Feel free to give me a ring at 408-634-5764.[1]
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 *** Fax
 You can fax me at 206-666-5090.[2]
@@ -48,13 +52,21 @@ You can fax me at 206-666-5090.[2]
 You can connect with me on [[http://linkd.in/KE1CZj][LinkedIn]]. 
 
 *** Snail Mail
+<<<<<<< HEAD
 If you do need to snail mail me something, it is best to give me a heads-up so I know to look for it between all of the advertising circulars that I tend to dump. Paper is YAAM (Yet Another Archaic Medium).
+=======
+If you do need to snail mail me something, it is best to give me a heads-up so I know to look for it between all of the advertising circulars that I dump (it's all vestigial media).
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 ***** Mailing Address[3]
 #+BEGIN_EXAMPLE 
 Neil Smithline
 831 Beacon St.
+<<<<<<< HEAD
 Suite #255
+=======
+Box #255
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 Newton Centre, MA 02465
 #+END_EXAMPLE
 
@@ -71,6 +83,7 @@ West Newton, MA 02459
 
 [1] I'm quite proud of that number. Why you ask? Three reasons.
 1) 408 is the area code for [[http://en.wikipedia.org/wiki/Silicon_valley][Silicon Valley]] -- The home for all true nerds. While I live in Boston, my heart is in San Jose. 
+<<<<<<< HEAD
 1) It is a vanity number. The number is 408-Neil-Smi, the first 7 letters of my name. Getting the number was simple but waiting 2 years until it or a similarly cool number became available was a bit trying.
 1) It's simply geekilicious. I count this as an electronic toy and one can never have too many of those.
 
@@ -79,3 +92,15 @@ West Newton, MA 02459
 [3] Just in case you're wondering, the box number for my mailing address was carefully chosen. After learning assembler on the {{{absolute_link(/en.wikipedia.org/wiki/Apple_II_series#Apple_II_Plus, Wikipedia's Apple II Plus page, Apple II Plus)}}} with its 8-bit [[http://bit.ly/K5IZxg][6502 processor]], I think it is more likely that I'll forget my name before I forget the highest number you can hold in 8 bits.
 
 [4] I just got lucky on this apartment number. I didn't even notice that it was a cool number until my then 15yo son said that we had the *[[http://bit.ly/K5Hbob][pi]]* apartment (geekness is obviously hereditary). Once he pointed it out, I had no choice but to get a small gold, circular sticker so I could add the decimal point.
+=======
+1) It is a vanity number. The number is 408-Neil-Smi, the first 7 letters of my name. Getting the number was quite simple. Spending 2 years until it or a similarly cool number became available, not so simple.
+1) It's simply geekilicious. I count this as an electronic toy and one can never have too many of those.
+
+[2] It, of course, gets delivered to me via email. Paper is simply a vestigial medium.
+
+[3] Just in case you're wondering, the box number for my mailing address was carefully chosen. After learning assembler on the {{{absolute_link(/en.wikipedia.org/wiki/Apple_II_series#Apple_II_Plus, Wikipedia's Apple II Plus page, Apple II Plus}}} with its 8-bit [[http://bit.ly/K5IZxg][6502 processor]], I think it is more likely that I'll forget my name before I forget the highest number you can hold in 8 bits.
+
+[4] I just got lucky on this apartment number. I didn't even notice that it was a cool number until my then 15yo son said that we had the *[[http://bit.ly/K5Hbob][pi]]* apartment (geekness is obviously hereditary). Once he pointed it out, I had no choice but to get a small gold, circular sticker so I could add the decimal point.
+
+
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1

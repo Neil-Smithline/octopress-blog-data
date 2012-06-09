@@ -17,7 +17,11 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
+<<<<<<< HEAD
 subscribe_rss: http://feeds.feedburner.com/MyGeekdom
+=======
+subscribe_rss: /atom.xml
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,7 +30,10 @@ email:
 #    Jekyll & Plugins     #
 # ----------------------- #
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
 permalink: /blog/:year/:month/:day/:title/
@@ -66,7 +73,11 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
+<<<<<<< HEAD
 twitter_user: 
+=======
+twitter_user: neil_smithline
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true

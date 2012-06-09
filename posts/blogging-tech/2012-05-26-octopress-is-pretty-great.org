@@ -12,7 +12,10 @@ published:      true
 #+END_HTML
 
 #+MACRO: relative_link          @<a href="{{ root_url }}$1" title="$2">$3@</a>
+<<<<<<< HEAD
 #+MACRO: absolute_link           @<a href="http:/$1" title="$2">$3@</a>
+=======
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 * Jekyll Overview
 I have simply fallen in love with [[http://bit.ly/KT1aFT][Octopress]]. I think I mentioned previously that Octopress is an auto-configuration tool wrapped around [[http://bit.ly/Jm1bmc][Jekyll]]. And Jekyll is the technology behind [[http://bit.ly/Krch8n][Github pages]]. As such, if you use Jekyll for your blogging platform, you can preview your blog locally, push it to Github, and let Github do all the page serving. 
@@ -21,14 +24,21 @@ This isn't actually as much work for the Github servers as you may think. Jekyll
 
 * Configuration
 Octopress's biggest addition to Jekyll is that it automagically configures Jekyll for you. I have found that configuring Jekyll is a bit of a pain. Jekyll decided to trade easy configuration for flexibility. This is a common decision in applications and one I can't really argue with.
+<<<<<<< HEAD
 #+HTML: <!-- more -->
+=======
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 But Octopress packages a mostly configured Jekyll installation in a neat little package. The introductory paragraph on [[http://bit.ly/KT1aFT][Octopress.org]] states:
 #+BEGIN_QUOTE
 Octopress is a framework designed by Brandon Mathis for Jekyll, the blog aware static site generator powering Github Pages. To start blogging with Jekyll, you have to write your own HTML templates, CSS, Javascripts and set up your configuration. But with Octopress All of that is already taken care of. Simply clone or fork Octopress, install dependencies and the theme, and you're set.
 #+END_QUOTE
 
+<<<<<<< HEAD
 While that may sound a bit intimidating to the less-computer literate, the Octopress site carefully steps you through the process. I've installed and used Wordpress, Joomla, [[http://bit.ly/KrgcC1][Drupal]], [[http://bit.ly/wq2Ien][Nanoblogger]], and many other blogging systems. I can say that Octopress is, by far, the easiest. 
+=======
+While that may be intimidating to the less-computer literate, the Octopress site carefully steps you through the process. I've installed and used Wordpress, Joomla, [[http://bit.ly/KrgcC1][Drupal]], [[http://bit.ly/wq2Ien][Nanoblogger]], and many other blog systems and Octopress is, by far, the easiest.
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 The above quote states three steps for installing Octopress but there are actually a few more steps:
 0) Install Git
@@ -42,7 +52,11 @@ The above quote states three steps for installing Octopress but there are actual
 If you don't have [[http://bit.ly/KrgU2a][Git]] installed, you need to install it. This was a trivial task for most users but, thanks to the clever folk at Github, has become idiot-proof. Github created a [[http://bit.ly/KrhqgF][Mac OS X]] and [[http://windows.github.com/][Windows]] application that allows easy use of Github. These make installing and using Git user-friendly for those who prefer to avoid [[http://bit.ly/xOIkfJ][CLI]]s.
 
 *** Clone Or Fork Octopress
+<<<<<<< HEAD
 Cloning Octopress, simpler than forking it, is a single command line 
+=======
+Cloning Octopress, simpler than forking it, is literally a single command line 
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 : git clone git://github.com/imathis/octopress.git octopress
 It takes only a few mouse clicks if you are using one of Github's applications to do the clone. 
 
@@ -57,7 +71,11 @@ There are additional theme installation options but you can simply ignore them a
 *** Configure Your Blog
 Configuring your blog is perhaps the most complicated step in the entire installation process. You'll need to open a text editor such as [[http://bit.ly/LEyD7l][Textedit]] on a Mac or [[http://bit.ly/LEyRvo][Notepad]] on Windows. 
 
+<<<<<<< HEAD
 The configuration file is written in a format called [[http://bit.ly/LEzjd3][YAML]]. That sounds a lot scarier than it actually is. Octopress's [[http://bit.ly/Mlynfm][configuration page]] states that you just need to edit the existing =_config.yml=, and modify the following lines:
+=======
+The configuration file is written in a format called [[http://bit.ly/LEzjd3][YAML]]. That sounds a lot scarier than it actually is. Octopress's [[http://bit.ly/Mlynfm][configuration page]] states that you just need to edit the existing _config.yml, and modify the following lines:
+>>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 : url:                # For rewriting urls for RSS, etc
 : title:              # Used in the header and title tags
 : subtitle:           # A description used in the header

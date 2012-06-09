@@ -1,0 +1,37 @@
+* Status Of This README
+As of <2012-06-09 Sat>, this README file is a [[http://bit.ly/Np4RGn][WIP]].
+
+* Octopress Blog Data
+I am currently using [[http://bit.ly/KT1aFT][Octopress]] as the engine for [[http://bit.ly/KVR0FR][my blog]]. I have slightly modified Octopress's file layout so that all of my data is stored in a single subtree of the blog. Besides making it easy to track my changes (eg: if I added or changed a file, it is in this repository), it provides me with great portability. 
+
+Once I've installed a generic copy of Octopress on any computer, I can clone this repository and start blogging right from there. I like /nice and tidy/.
+
+* Blog Software Components
+Several pieces of software are involved in the publication of my blog. Most of them are generic Octopress or [[http://bit.ly/Jm1bmc][Jekyll]], the underlying technology for Octopress, components. I have added to generic Octopress so that I can use [[http://bit.ly/J3ouNd][GNU Emacs]]'s [[http://bit.ly/zhYdcB][Org Mode]] for my [[ http://bit.ly/KVSZtG][markup language]] and [[http://bit.ly/KVU1pF][publishing]] [[http://bit.ly/KVUlVj][platform]].
+
+Software Components:
+  - Octopress: Client-side blogging platform.
+  - Jekyll: Underlying technology for Octopress.
+  - [[http://www.github.com][Github]]: Blog hosting service.
+  - [[http://bit.ly/Krch8n][Github Pages]]: Server-side blogging platform.
+  - [[http://bit.ly/KAfYv0][Ruby]] and [[http://bit.ly/KVUVm9][Rake]]: Underlying technology for Jekyll and Octopress
+  - Org Mode: Markup language, project management, and general coolness :-)
+  - GNU Emacs: Underlying technology for Org Mode.
+
+* Subdirectories
+*** Pages
+The =pages= subdirectory contains all of the /pages/ on my website. That is, it holds any non-blog data that I wish to publish. Unlike blog posts, pages do not have tags, dates, and other typical blogging miscellanea. 
+
+The =pages= subdirectory has a tree structure of its own that matches Octopress/Jekyll's =source= directory tree structure. Org Mode project publishing converts these files from Org Mode markup to HTML, storing the HTML files into the corresponding directories of Octopress's =source= directory.
+
+In the end, this means that Octopress/Jekyll only see HTML in its =source= directory and handles them as it would handle hand-coded HTML files.
+
+***** Octopress Pages
+My [[ http://bit.ly/KVS2le][contact page]] is an example of an Octopress page. While it isn't organized by tags and dates as blog postings are, it has the look-and-feel of my Octopress site.
+
+***** Non-Blog Pages
+An example of a non-blog page is [[http://bit.ly/KVRTOM][my resume]]. It is an HTML file that Octopress simply deploys to my [[http://bit.ly/KVSjVi][Github hosted blog]]. My resume appears as a [[http://bit.ly/KVSyj0][printer friendly]] page that is clearly not part of my Octopress website. It doesn't have Octopress's header, theme, layout, etc...
+
+*** Posts
+Octopress requires blog posts to follow a standard naming convention.
+
