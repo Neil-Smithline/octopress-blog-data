@@ -195,3 +195,74 @@ CLOSED: [2012-06-09 Sat 12:19]
 - State "DONE"       from "POST"       [2012-06-09 Sat 12:19]
 :END:
 Looks like http://bit.ly/NoQnGj took a day but is up and running today. #facebook #twitter
+******* DONE GolfScript [2012-06-09 Sat 23:01]               :TWEET:NS:
+CLOSED: [2012-06-09 Sat 23:10]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-09 Sat 23:10]
+:END:
+The GolfScript language gets an A+ for compactness as each example can fit in a tweet! For readability, you decide http://bit.ly/MXxcVc
+***** 2012-06-10 Sunday
+******* DONE test [2012-06-10 Sun 19:30]                     :TWEET:NS:
+CLOSED: [2012-06-10 Sun 19:40]
+:LOGBOOK:
+:END:
+%?
+******* DONE Phone Breakin [2012-06-10 Sun 19:38]            :TWEET:NS:
+CLOSED: [2012-06-10 Sun 19:40]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-10 Sun 19:40]
+:END:
+Whether I like the topless actresses or not, I just can't find any humor in a security break-in http://bit.ly/KYBRng
+******* DONE Octopress... [2012-06-10 Sun 23:09]             :TWEET:NS:
+CLOSED: [2012-06-10 Sun 23:12]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-10 Sun 23:12]
+- State "DONE"       from "POST"       [2012-06-10 Sun 23:10]
+:END:
+I've been blogging (http://bit.ly/yGGszW) with #Octopress for less than a month and simply love it. I wish everything was as easy to manage.
+***** 2012-06-11 Monday
+******* DONE Apple Dropbox [2012-06-11 Mon 10:20]            :TWEET:NS:
+CLOSED: [2012-06-11 Mon 10:31]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-11 Mon 10:31]
+:END:
+Apple appstore boots Dropbox: apps that collects $$ directly, not giving Apple 20%, will go. Article is worth the read bit.ly/KvAGcg
+******* DONE Telsa Coils [2012-06-11 Mon 18:49]              :TWEET:NS:
+CLOSED: [2012-06-11 Mon 18:51]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-11 Mon 18:51]
+:END:
+Lots of excitement about wireless phone chargers http://on.mash.to/KN2SvH - Not sure why as http://bit.ly/KN2ZqY have been around 100+ years
+***** 2012-06-12 Tuesday
+******* DONE FF13 in LifeHacker [2012-06-12 Tue 20:49]       :TWEET:NS:
+CLOSED: [2012-06-12 Tue 20:55]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-12 Tue 20:55]
+:END:
+Was #LifeHacker's browser perf test rigged? "In an effort to test the benefits of #Firefox's new on demand tab loading" bit.ly/K0nZ7E
+***** 2012-06-13 Wednesday
+******* DONE FF Start Over [2012-06-13 Wed 00:57]            :TWEET:NS:
+CLOSED: [2012-06-13 Wed 01:02]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-13 Wed 01:02]
+:END:
+Then: Break #Firefox profile, create new one, sync with #xmarks and #lastpass. Now: Break profile, create new, FF sync breaks new. Ideas?
+******* DONE FF Sync PS [2012-06-13 Wed 01:02]               :TWEET:NS:
+CLOSED: [2012-06-13 Wed 01:04]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-13 Wed 01:04]
+:END:
+PS: I have never broken my #Chrome profile. Don't even know how to create one. but I have a script and an #app to create new FF profiles
+******* DONE FF Broke PPS [2012-06-13 Wed 01:04]             :TWEET:NS:
+CLOSED: [2012-06-13 Wed 01:06]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-13 Wed 01:06]
+:END:
+Almost forgot, I also have a script 'killff' to kill #firefox from #Quicksilver with just a few keystrokes. Don't need one for #Chrome
+***** 2012-06-14 Thursday
+******* DONE Facebook Tracking [2012-06-14 Thu 11:38]        :TWEET:NS:
+CLOSED: [2012-06-14 Thu 11:40]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-14 Thu 11:40]
+:END:
+Blog posting: "The New, Privacy Invading, Facebook Like Button" http://bit.ly/M7Igbc Thanks to @jcleblanc for the article pointer

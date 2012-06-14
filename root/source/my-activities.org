@@ -12,3 +12,12 @@ Suddenly I can't get ssh working with Github. It worked yesterday and I haven't 
 
 ******* Octopress [2012-06-08 Fri 22:55]
 Been [[http://bit.ly/Leebbh][blogging about Octopress]]'s wonders. It is integrating well with Emacs. Most of my Emacs integration is on top of Octopress but I've made just a few changes to the Octopress base code. I've added a few configuration settings. Sent a pull request to have them brought into the mainline Octopress as my changes are backwards compatible. That is, the configuration settings have default values that makes Octopress with my updates behave the same as Octopress without my updates. Maintaining my own =Rakefile= isn't hard but I'd rather not do it.
+***** 2012-06-09 Saturday
+******* Fix Accursed Github SSH Probem [2012-06-09 Sat 14:25]
+I fixed my Github SSH problem. That said, I never figured out what the problem was. I went back to an SSH clean slate by removing my Github SSH keys and moving my [[http://bit.ly/Np5ZtB][SSH config]] file to a temporary location. Then I followed Github's instructions for getting SSH working. Not a hitch. I then moved my SSH config file back into place and everything works. (I need the SSH config file to allow me to use SSH to multiple servers.)
+***** 2012-06-11 Monday
+******* SPG: Secure Password Generator [2012-06-10 Sun 10:32]
+Got tired of all these password cracking cases cause people to have to change many passwords because they reuse same password. Decided to write SCP: The Secure Password Generator. Other password tools exist but mine is going to be simple to use, generate secure passwords, is browser based, never stores passwords on your computer, and, if I manage the CSS, can work on mobile devices too.
+***** 2012-06-14 Thursday
+******* Facebook User Tracking Blog Posting [2012-06-14 Thu 12:32]
+[[http://bit.ly/M7Igbc][Blogged]] about my not-very-happy feelings about Facebook's new tracking program. Very bad.

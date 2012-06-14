@@ -1,6 +1,5 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
-<<<<<<< HEAD
 
 // //////////////////////////////////////////////////////////////////////// 
 // By default, Octopress does not indent lists but has a configuration
@@ -8,7 +7,8 @@
 // just put it here. I think the use of relative sizes (eg: 'em's and
 // '%'s) will make this work on different screens sizes. ul,ul ul,ul
 // ////////////////////////////////////////////////////////////////////////
-ol,ol,ol ul,ol ol { margin-left: 5%; }
+
+ul, ul ul,ul ol, ol,ol ul, ol ol, ol ul,ol ol { margin-left: 5%; }
 
 h2 {
     padding-top: 0.8em;
@@ -27,12 +27,6 @@ h2:first-child, header + h2 { background: none; }
 }
 
 // Bold and italic are broken. I wonder If I have broken them or if
-// they just came that way?
+// they just came that way? This fixes it.
 strong, b { font-weight: bold; }
 i { font-style: italic; }
-=======
-ul,ul ul,ul ol,ol,ol ul,ol ol {
-    margin-left: 5%;
-}
-
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1

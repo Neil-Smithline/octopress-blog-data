@@ -28,15 +28,12 @@ new_post_dir    = "posts"     # root directory for new posts
 new_page_ext    = "org"       # default new page file extension when using the new_page task
 new_page_dir    = "pages"     # root directory for new pages
 server_port     = "4000"      # port for preview server eg. localhost:4000
-<<<<<<< HEAD
+
 yaml_prefix     = "#+BEGIN_HTML"    # Text to put in front of YAML front matter
 yaml_suffix     = "#+END_HTML"      # Text to put in front of YAML front matter
 
 # Additional YAML front matter to use
 yaml_misc       = "published:       false"
-=======
-
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
@@ -127,11 +124,7 @@ task :new_post, :filename do |t, args|
    
     puts "Creating new post: #{file}"
     open(file, 'w') do |post|
-<<<<<<< HEAD
       post.puts yaml_prefix
-=======
-      post.puts "#+BEGIN_HTML"
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
       post.puts ""
       post.puts "---"
       post.puts "layout:         post"
@@ -139,17 +132,10 @@ task :new_post, :filename do |t, args|
       post.puts "date:           #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       post.puts "comments:       true"
       post.puts "categories:     []"
-<<<<<<< HEAD
       post.puts yaml_misc
       post.puts "---"
       post.puts ""
       post.puts yaml_suffix
-=======
-      post.puts "published:      false"
-      post.puts "---"
-      post.puts ""
-      post.puts "#+END_HTML"
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
@@ -182,11 +168,7 @@ task :new_page, :filename do |t, args|
     end
     puts "Creating new page: #{file}"
     open(file, 'w') do |page|
-<<<<<<< HEAD
       page.puts yaml_prefix
-=======
-      page.puts "#+BEGIN_HTML"
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
       page.puts ""
       page.puts "---"
       page.puts "layout:         page"
@@ -195,17 +177,10 @@ task :new_page, :filename do |t, args|
       page.puts "comments:       true"
       page.puts "sharing:        true"
       page.puts "footer:         true"
-<<<<<<< HEAD
       page.puts yaml_misc
       page.puts "---"
       page.puts ""
       page.puts yaml_suffix
-=======
-      page.puts "published:      false"
-      page.puts "---"
-      page.puts ""
-      page.puts "#+END_HTML"
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"

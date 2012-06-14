@@ -1,11 +1,16 @@
 <hgroup>
+
   <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
+
+  <div  style="float: right; position: relative; top: 75px;" id="header-image-container">
+    <a href="{{ root_url }}" accesskey="1">
+      <img title="Neil Smithline" src="{{ root_url }}/assets/images/NS-Keycaps.png"></img>
+    </a>
+  </div>
+
   {% if site.subtitle %}
     <h2>{{ site.subtitle }}</h2>
   {% endif %}
 
-  <div id="header-image-container">
-    <a href="{{ root_url }}" accesskey="1">
-    </a>
-  </div>
+
 </hgroup>

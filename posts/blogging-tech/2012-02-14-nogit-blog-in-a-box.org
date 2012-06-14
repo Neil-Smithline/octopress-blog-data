@@ -13,12 +13,8 @@ author:            Neil Smithline
 
 As I have been developing my blog's technology, I have been surprised at the lack of a pre-packaged [[http://en.wikipedia.org/wiki/Blog][blogging]] solution for [[http://www.gnu.org/software/emacs/][Emacs]]' [[http://orgmode.org/][Org Mode]]. Org Mode is simply a wonderful tool for organizing thoughts, ideas, text, links, etc... While Org Mode has a rather difficult learning curve, its motto, /Your life in plain text./, seems to be accurate.
 
-<<<<<<< HEAD
 Spurred by ideas from [[http://decafbad.com][0xDECAFBAD.com]] and code from [[http://nanoblogger.sourceforge.net/][NanoBlogger]] (NB), I've gone about creating an Org Mode-based blogging system. And, if you are reading this, it is actually working. While NB and Org Mode do all the heavy lifting, I've simply added some glue to hook them together. What I have is far from a perfect solution, but it seems to work pretty well. 
 #+HTML: <!-- more -->
-=======
-Spurred by ideas from [[http://decafbad.com][0xDECAFBAD.com]] and code from [[http://nanoblogger.sourceforge.net/][NanoBlogger]] (NB), I've gone about creating an Org Mode-based blogging system. And, if you are reading this, it is actually working. While NB and Org Mode do all the heavy lifting, I've simply added some glue to hook them together. What I have s far from a perfect solution, but it seems to work pretty well. 
->>>>>>> 8bda2f97331e098b479a87ec06bb2c43e12cb4d1
 
 There is a bit of a UI problem in that the Org Mode editing has a general look-and-feel like that seems like a typical Org Mode editor with a NanoBlogger posting jammed in. That's not surprising as, to save development time, I've basically just jammed a NanoBlogger posting into an Org Mode buffer.
 
