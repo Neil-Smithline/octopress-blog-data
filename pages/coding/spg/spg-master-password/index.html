@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<title>---</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="title" content="---"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2012-06-13 20:19:38 EDT"/>
+<meta name="author" content="Neil Smithline"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color: #add8e6; font-weight:normal }
+  .target { }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .right  {margin-left:auto; margin-right:0px;  text-align:right;}
+  .left   {margin-left:0px;  margin-right:auto; text-align:left;}
+  .center {margin-left:auto; margin-right:auto; text-align:center;}
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top;  }
+  th.right  { text-align:center;  }
+  th.left   { text-align:center;   }
+  th.center { text-align:center; }
+  td.right  { text-align:right;  }
+  td.left   { text-align:left;   }
+  td.center { text-align:center; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  div.inlinetask {
+    padding:10px;
+    border:2px solid gray;
+    margin:10px;
+    background: #ffffcc;
+  }
+  textarea { overflow-x: auto; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/hmac-md5.js"> </script> <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/components/enc-base64-min.js"> </script>
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+
+</head>
+<body>
+
+<div id="preamble">
+
+</div>
+
+<div id="content">
+<h1 class="title">---</h1>
+
+
+layout:         page
+title:          "SPG: Generating Your Master Password"
+date:           2012-06-11 10:56
+comments:       true
+sharing:        true
+footer:         true
+published:      true
+---
+
+
+
+  <script type="text/javascript">
+        var special = new Array();
+        special[0] = "abcdefghijklmnopqrstuvwxyz"; // Lower-case for password
+        special[1] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Upper-case for password
+        special[2] = "!@#$%^&*()"; // Symbols for password
+        special[3] = "0123456789"; // Digits for password
+        
+        var size = 8; // Size of password without specials added to it
+
+        // Get a random number that is between 0 .. max-1
+        function max_rand(max) {
+            // We boot numbers bigger than cap
+            var cap = Math.floor(256 / max) * max;
+            var num = cap + 1;
+
+            while (num >= cap) {
+                num = CryptoJS.lib.WordArray.random(1); 
+                num = "0x" + num;
+                num = parseInt(num);
+            }
+            num = Math.floor(num / cap * max);
+
+            return num;
+        }
+
+        function passwordify(input) {
+            // We create the password by taking the random bits and
+            // base-64 encoding them. and taking the first `size'
+            // characters of it as that is enough entropy for our
+            // needs.
+            //
+            // To ensure that we include all character types, we'll
+            // then add one character from each array item of
+            // `special' into a randomly chosen part of the password.
+
+            //////////////////////////////////////////////////////////////
+            // Base-64 encode and use first `size' characters for
+            // the password
+            //////////////////////////////////////////////////////////////
+            var b64 = input.toString(CryptoJS.enc.Base64);
+            var pwd = b64.substr(0, size);
+            var pwd_array = pwd.split("");
+alert("pwd.len=" + pwd.length + ", array.len=" + pwd_array.length);
+
+            for (i=0; i < special.length; i++) {
+                var index = max_rand(special[i].length);
+                var spcl_char = special[i].substring(index, index + 1);
+                var location = max_rand(pwd_array.length);
+                pwd_array.splice(location, 0, spcl_char);
+alert("i=" + i + ", len=" + pwd_array.length);
+
+            }
+
+            return pwd_array.join("");
+        }
+
+        function genMaster() {
+            var master = CryptoJS.lib.WordArray.random(256);
+            var pwd = passwordify(master);
+            alert("         !!THIS IS YOUR MASTER PASSWORD!!\n" +
+                  "Copy it per the instructions then close this alert.\n" +
+                  "                    " + pwd);
+        }
+  </script>
+
+
+<div id="outline-container-1" class="outline-2">
+<h2 id="sec-1">First Time Users</h2>
+<div class="outline-text-2" id="text-1">
+
+<p>SPG generates unique passwords for each website that you use. It does this by combining a <i>master password</i> the website name, and your birthday. You do not need to remember each site's individual password, only your master password and your birthday See <a href="#Footnote-1">Footnote 1</a> for the nasty technical details.
+In order to use SPG, you must create a master password. 
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-2">
+<h2 id="sec-2">About The Master Password</h2>
+<div class="outline-text-2" id="text-2">
+
+<p>The master password must have the following qualities:
+</p><ul>
+<li><b>Cryptographically random:</b> You don't need to understand the math behind being cryptographically random^<a href="#Footnote-2">Footnote 2</a> just need to know that a password needs to be cryptographically random to be secure and that you can't easily create a cryptographically random password without help. SPG provides this help.
+</li>
+<li><b>Sufficiently long:</b> To be exact, it is not the size of the password that matters. It is the number of bits of <a href="http://bit.ly/LQPOz1">entropy</a> that the password has. Once again, no need to worry about the details, SPG takes care of them for you.
+</li>
+<li><b>Something that you will never forget:</b> If you have a great memory and happen to know the first 50 digits of pi off the top of your head, then memorizing a random password should be easy. Otherwise, write it down.
+</li>
+<li><b>Something that is not related to your life:</b> Your dog's name, your kindergarten teacher's name, and the name of the first person you kissed are all out. So too is any combination of personally meaningful passwords. For example, if <i>Spot-Mrs.-Johnson</i> is your dog's name and your kindergarten teacher's name, it is not a good master password.
+</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-2">
+<h2 id="sec-3">How To Get Your Master Password</h2>
+<div class="outline-text-2" id="text-3">
+
+
+<table border="0" align="right" cellpadding="5" cellspacing="0">
+    <tr>
+        <td align="center" valign="top">
+            <img
+                src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Zocchihedron2.jpg/180px-Zocchihedron2.jpg" title="A Zocchihedron" align="right" alt="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Zocchihedron2.jpg/180px-Zocchihedron2.jpg"/>
+            <div style="text-align:center">
+              A 100-sided die called a 
+              <a href="http://bit.ly/KWRc90" title="A Zocchihedron">zocchihedron</a>
+            </div>
+        </td>
+    </tr>
+</table>
+<p>
+Without boring you with the math, the way you get your cryptographically secure, sufficiently sized, can't be easily guessed, never-to-be-forgotten password that is completely unrelated to anything in your life is to use a tool.
+</p>
+<p>
+If you happen to have a handful zocchihedrons, you can use them to create your password. Otherwise, you can get a master password by clicking on the button below.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-2">
+<h2 id="sec-4">My Master Password Is !@#$</h2>
+<div class="outline-text-2" id="text-4">
+
+<p>While I'm sorry that your master password is hard for you to memorize, type, or reminds you of the school bully when you were 5<sup>th</sup> grade, it's a good sign. If you look at the qualities listed above for master passwords, your master password is pretty much guaranteed to be difficult to remember. Regenerating your master password until you get one that you like can dramatically reduce the entropy of your master password. 
+</p>
+<p>
+Depending on how many master passwords you go through before you pick one and why you liked the one you picked one, the reduction in entropy may be minimal or may be severe. The problem is that it is hard to know how much entropy is lost by regenerating your master password. So stick with the first one you get and do your best to memorize it. 
+</p>
+<p>
+If you find that, after a few days of use, you can't remember your master password, you may want to try some common <a href="http://bit.ly/KZhp73">memorization strategies</a>. Whatever you do, just stick with the first master password.
+</p>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-2">
+<h2 id="sec-5">Generating Your Master Password</h2>
+<div class="outline-text-2" id="text-5">
+
+<p>Before you press the generate button, make sure that:
+</p><ul>
+<li>Nobody is standing over your shoulder or walking by. There are many cases of compromised passwords due to so called <a href="http://bit.ly/KZeqLG">shoulder surfing</a>, but better safe than sorry.
+</li>
+<li>You do not copy-and-paste the password. Copying new contents to the clipboard does not guarantee that the clipboard's contents have been erased.
+</li>
+<li>You write the password down. Yes, I know people tell you not to write your passwords down (more on this later) but this is a special case. 
+</li>
+</ul>
+
+
+<p>
+When you write your master password down, do not write the password in a notebook. Just grab a sticky or tear a piece of paper out of a notebook. Be sure that the when you are writing the master password down that piece of paper is placed on a hard surface. Your desk and your computer monitor (be careful if you have a laptop) are good choices. Worrying about <a href="http://bit.ly/KZgbIJ">indented writing</a> attacks on your master password is a bit paranoid but this is an important password and it is easy to write on a hard surface.
+</p>
+<p>
+Assuming you have followed everything above, you are ready to get your master password. Click the button below. You will get a popup with your master password. Write down your master password, and put it in your wallet or lock it in a secure location. In general I wouldn't consider standard office desk drawers "secure", but the security varies greatly from office to office.
+<center>
+    <button name="get-master" type="button" onclick="genMaster()">
+        Generate Your Master Password
+    </button>
+</center>
+<br/>
+
+</p></div>
+
+</div>
+
+<div id="outline-container-6" class="outline-2">
+<h2 id="sec-6">Securing Your Master Password</h2>
+<div class="outline-text-2" id="text-6">
+
+<p>Until you memorize your master password, keep a copy of it in your wallet or in your cell phone's battery case. Anything that you'll always have with you is fine.
+</p>
+<p>
+You need one hard-copy of your master password in case you ever forget it, get into a car accident, etc.. You should store that in a secure place. Unless you feel that someone may specificaly <a href="http://bit.ly/KnUtgU">target</a> you for an attack, work for the NSA, or have mischievous teenage children, the bottom of your sock drawer may be secure enough.
+</p>
+<p>
+You may also wish to archive a copy of your master password and these instructions along with your <a href="http://bit.ly/KnVq96">last will testament</a>. Between the master password, the instructions, and access to your email account, your heirs will likely have access to all of your online accounts.
+</p></div>
+</div>
+</div>
+
+</body>
+</html>

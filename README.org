@@ -1,5 +1,18 @@
-* Status Of This README
+* Status Of This README (and this repo in general)
 As of <2012-06-09 Sat>, this README file is a [[http://bit.ly/Np4RGn][WIP]].
+
+* Goal
+I have developed a nice Org Mode/Emacs interface built around blogging with Octopress. While I'm not sure the task will ever be completed, I'd like to create a version of this repo that has none of my blog data but contains the skeleton of a my Org Mode flavor Octopress blog as well as all of my Emacs customizations. 
+
+Like Octopress, I'd like the repo to be auto-installing. That is, you clone it and just start using it. Configuration and initialization are just part of the workflow.
+
+Assuming that I ever get around to doing this (it is nowhere near the top of my todo list), there will be a simple recipe for creating an Org Mode/Emacs/Octopress/Jekyll/Github blog:
+  1. Create a Github repo for your blog.
+  2. Clone Octopress.
+  3. Config Octopress (only a few commands).
+  4. Clone my blog data repo
+  5. Add my Octopress Elisp file to your load path
+  6. Start blogging
 
 * Octopress Blog Data
 I am currently using [[http://bit.ly/KT1aFT][Octopress]] as the engine for [[http://bit.ly/KVR0FR][my blog]]. I have slightly modified Octopress's file layout so that all of my data is stored in a single subtree of the blog. Besides making it easy to track my changes (eg: if I added or changed a file, it is in this repository), it provides me with great portability. 

@@ -1,0 +1,141 @@
+#+BEGIN_HTML
+
+---
+layout:         page
+title:          "SPG: Generating Your Master Password"
+date:           2012-06-11 10:56
+comments:       true
+sharing:        true
+footer:         true
+published:      true
+---
+
+#+END_HTML
+
+#+STYLE:  <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/hmac-md5.js"> </script> <script type="text/javascript" src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/components/enc-base64-min.js"> </script>
+
+#+BEGIN_HTML
+  <script type="text/javascript">
+        var special = new Array();
+        special[0] = "abcdefghijklmnopqrstuvwxyz"; // Lower-case for password
+        special[1] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"; // Upper-case for password
+        special[2] = "!@#$%^&*()"; // Symbols for password
+        special[3] = "0123456789"; // Digits for password
+        
+        var size = 8; // Size of password without specials added to it
+
+        // Get a random number that is between 0 .. max-1
+        function max_rand(max) {
+            // We boot numbers bigger than cap
+            var cap = Math.floor(256 / max) * max;
+            var num = cap + 1;
+
+            while (num >= cap) {
+                num = CryptoJS.lib.WordArray.random(1); 
+                num = "0x" + num;
+                num = parseInt(num);
+            }
+            num = Math.floor(num / cap * max);
+
+            return num;
+        }
+
+        function passwordify(input) {
+            // We create the password by taking the random bits and
+            // base-64 encoding them. and taking the first `size'
+            // characters of it as that is enough entropy for our
+            // needs.
+            //
+            // To ensure that we include all character types, we'll
+            // then add one character from each array item of
+            // `special' into a randomly chosen part of the password.
+
+            //////////////////////////////////////////////////////////////
+            // Base-64 encode and use first `size' characters for
+            // the password
+            //////////////////////////////////////////////////////////////
+            var b64 = input.toString(CryptoJS.enc.Base64);
+            var pwd = b64.substr(0, size);
+            var pwd_array = pwd.split("");
+
+            for (i=0; i < special.length; i++) {
+                var index = max_rand(special[i].length);
+                var spcl_char = special[i].substring(index, index + 1);
+                var location = max_rand(pwd_array.length);
+                pwd_array.splice(location, 0, spcl_char);
+            }
+
+            return pwd_array.join("");
+        }
+
+        function genMaster() {
+            var master = CryptoJS.lib.WordArray.random(256);
+            var pwd = passwordify(master);
+            alert("         !!THIS IS YOUR MASTER PASSWORD!!\n" +
+                  "Copy it per the instructions then close this alert.\n" +
+                  "                    " + pwd);
+        }
+  </script>
+#+END_HTML
+
+* First Time Users
+SPG generates unique passwords for each website that you use. It does this by combining a /master password/ the website name, and your birthday. You do not need to remember each site's individual password, only your master password and your birthday See [[Footnote 1]] for the nasty technical details.
+In order to use SPG, you must create a master password. 
+
+* About The Master Password
+The master password must have the following qualities:
+  - *Cryptographically random:* You don't need to understand the math behind being cryptographically random^[[Footnote 2]] just need to know that a password needs to be cryptographically random to be secure and that you can't easily create a cryptographically random password without help. SPG provides this help.
+  - *Sufficiently long:* To be exact, it is not the size of the password that matters. It is the number of bits of [[http://bit.ly/LQPOz1][entropy]] that the password has. Once again, no need to worry about the details, SPG takes care of them for you.
+  - *Something that you will never forget:* If you have a great memory and happen to know the first 50 digits of pi off the top of your head, then memorizing a random password should be easy. Otherwise, write it down.
+  - *Something that is not related to your life:* Your dog's name, your kindergarten teacher's name, and the name of the first person you kissed are all out. So too is any combination of personally meaningful passwords. For example, if /Spot-Mrs.-Johnson/ is your dog's name and your kindergarten teacher's name, it is not a good master password.
+
+* How To Get Your Master Password
+#+BEGIN_HTML
+<table border="0" align="right" cellpadding="5" cellspacing="0">
+    <tr>
+        <td align="center" valign="top">
+            <img
+                src="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Zocchihedron2.jpg/180px-Zocchihedron2.jpg" title="A Zocchihedron" align="right" alt="http://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Zocchihedron2.jpg/180px-Zocchihedron2.jpg"/>
+            <div style="text-align:center">
+              A 100-sided die called a 
+              <a href="http://bit.ly/KWRc90" title="A Zocchihedron">zocchihedron</a>
+            </div>
+        </td>
+    </tr>
+</table>
+#+END_HTML 
+Without boring you with the math, the way you get your cryptographically secure, sufficiently sized, can't be easily guessed, never-to-be-forgotten password that is completely unrelated to anything in your life is to use a tool.
+
+If you happen to have a handful zocchihedrons, you can use them to create your password. Otherwise, you can get a master password by clicking on the button below.
+
+* My Master Password Is !@#$
+While I'm sorry that your master password is hard for you to memorize, type, or reminds you of the school bully when you were 5^th grade, it's a good sign. If you look at the qualities listed above for master passwords, your master password is pretty much guaranteed to be difficult to remember. Regenerating your master password until you get one that you like can dramatically reduce the entropy of your master password. 
+
+Depending on how many master passwords you go through before you pick one and why you liked the one you picked one, the reduction in entropy may be minimal or may be severe. The problem is that it is hard to know how much entropy is lost by regenerating your master password. So stick with the first one you get and do your best to memorize it. 
+
+If you find that, after a few days of use, you can't remember your master password, you may want to try some common [[http://bit.ly/KZhp73][memorization strategies]]. Whatever you do, just stick with the first master password.
+
+* Generating Your Master Password
+Before you press the generate button, make sure that:
+  - Nobody is standing over your shoulder or walking by. There are many cases of compromised passwords due to so called [[http://bit.ly/KZeqLG][shoulder surfing]], but better safe than sorry.
+  - You do not copy-and-paste the password. Copying new contents to the clipboard does not guarantee that the clipboard's contents have been erased.
+  - You write the password down. Yes, I know people tell you not to write your passwords down (more on this later) but this is a special case. 
+
+When you write your master password down, do not write the password in a notebook. Just grab a sticky or tear a piece of paper out of a notebook. Be sure that the when you are writing the master password down that piece of paper is placed on a hard surface. Your desk and your computer monitor (be careful if you have a laptop) are good choices. Worrying about [[http://bit.ly/KZgbIJ][indented writing]] attacks on your master password is a bit paranoid but this is an important password and it is easy to write on a hard surface.
+
+Assuming you have followed everything above, you are ready to get your master password. Click the button below. You will get a popup with your master password. Write down your master password, and put it in your wallet or lock it in a secure location. In general I wouldn't consider standard office desk drawers "secure", but the security varies greatly from office to office.
+#+BEGIN_HTML
+<center>
+    <button name="get-master" type="button" onclick="genMaster()">
+        Generate Your Master Password
+    </button>
+</center>
+<br/>
+#+END_HTML
+
+* Securing Your Master Password
+Until you memorize your master password, keep a copy of it in your wallet or in your cell phone's battery case. Anything that you'll always have with you is fine.
+
+You need one hard-copy of your master password in case you ever forget it, get into a car accident, etc.. You should store that in a secure place. Unless you feel that someone may specificaly [[http://bit.ly/KnUtgU][target]] you for an attack, work for the NSA, or have mischievous teenage children, the bottom of your sock drawer may be secure enough.
+
+You may also wish to archive a copy of your master password and these instructions along with your [[http://bit.ly/KnVq96][last will testament]]. Between the master password, the instructions, and access to your email account, your heirs will likely have access to all of your online accounts.

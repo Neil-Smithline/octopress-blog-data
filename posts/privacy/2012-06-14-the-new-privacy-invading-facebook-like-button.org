@@ -1,0 +1,92 @@
+#+BEGIN_HTML
+---
+
+title:             "The New, Privacy Invading, Facebook Like Button"
+description:       "Facebook's new user tracking policy at the cost of your privacy"
+date:              "2012-06-14 Thu 10:51:01"
+layout:            post
+comments:          true
+published:         true
+---
+#+END_HTML
+
+
+([[http://bit.ly/NADZTP][Background information]] about online advertising.)
+
+* Facebook Keeping Tabs On You
+[[http://on.fb.me/L787EG][Facebook]] has announced that it will sell user [[http://on.mash.to/L789wg][tracking information]] to its
+advertisers. Facebook, following in the steps of other large web [[http://bit.ly/NAEA84][advertising publishers]] such as [[http://bit.ly/Kk80BT][Google]], claims that [[http://bit.ly/NAyR1R][targetted advertisements]] are a /win-win/ deal.
+Advertisers win because they are able to provide ads that have a greater chance of
+being [[http://bit.ly/L78I9p][clicked]] and, hopefully, higher profit for the advertiser.
+
+Users win because they see ads that they are more pertinent to their interests. For
+example, a user who frequents technology websites may not have a strong interest in
+an ad for laundry detergent. But that same user may appreciate ads about the newest
+gadgets.
+
+So, /win-win/! Everybody's happy.
+
+* Even I Can Count To Three
+
+The phrase /win-win/ implies that there are two involved parties. Facebook, Google, and other companies that track users for targeted ads seem to forget to mention that there are three involved parties:
+
+  1. The advertiser
+  1. The user
+  1. The publisher, that is the company selling the advertising
+
+Perhaps /win-win-win/ is a more apropos statement than /win-win/.  The advertiser wins because their ads have a higher click-through rate, users win because they see ads that they are more interested in, and the publisher wins because they can charge a premium for targeted ads. For years Google has been running an instantaneous, automated [[http://bit.ly/NAzmZX][auction]] so that Google gets the highest price possible for its ads.
+
+A higher click-through rate is especially important for Facebook. Besides Facebook's [[http://engt.co/NAAf4x][new obligation]] to its shareholders, Facebook has a notoriously low click-through rate. From a 2010 [[http://tcrn.ch/NAzZ5N][TechCrunch article]]:
+#+BEGIN_QUOTE
+Biggest [advertising presence] doesn't mean most profitable. Facebook might be serving up more ads than almost anyone else, but they are still selling at very low ad rates because they perform poorly for the most part. If Facebook can figure out a way to make the ads on its site become more relevant and useful, it has a lot of room to boost its ad rates.
+#+END_QUOTE
+#+HTML: <!-- more -->
+
+* Facebook's Dilemma
+While Facebook is forced to look for ways to increase their revenue via targeted
+advertising, users tend to feel that having their internet usage being tracked is a
+[[http://bit.ly/NAFtxi][privacy invasion]]. As user tracking becomes more accurate, and hence more valuable to
+Facebook and other advertising publishers, it is also viewed by users as a greater
+invasion of privacy.
+
+For years Facebook has been tracking users' activities as they roam the pages of Facebook. Facebook has also been gathering information about what non-Facebook pages users [[http://bit.ly/KIZZ8L][like]]. These two types of tracking have a common property:
+#+BEGIN_QUOTE
+Facebook only tracks users when they interact with Facebook.
+#+END_QUOTE
+
+Whether the interaction is on the Facebook site or on another site where a user does a Facebook share or like.
+
+* Facebook's Bait And Switch
+
+The change in user tracking that Facebook announced is that they will track users even if they do not interact directly with Facebook. Facebook will now gather users' behavior whenever a user visits a site that has any Facebook code on it. That includes every page that has the ubiquitous:
+[[http://upload.wikimedia.org/wikipedia/commons/1/13/Facebook_like_thumb.png]] 
+button.
+
+For years, Facebook has been facilitating websites to use its /Like/ button as well as social widgets and other means of [[http://bit.ly/KJ4alc][Facebook integration]] with your site. Facebook has discussed the [[http://bit.ly/KJ4Zdz][many benefits]] this brings to website publishers.
+
+Facebook's change in user tracking has many ramifications:
+
+  1. After years of facilitating Facebook integration with websites, Facebook has
+     unilaterally decided to make every one of those sites a data collector for
+     Facebook. 
+  1. Once Facebook starts gathering this data, Websites with Facebook integration will be providing Facebook with valuable information without receiving any compensation for that information.
+  1. Short of not using Facebook, users cannot effectively [[http://bit.ly/KJ7Inj][opting out]] of this data tracking.
+  1. Some sites will have to update their privacy policy to reflect Facebook's new data collection.
+
+Furthermore, Facebook says that this change will happen within the [[http://bloom.bg/KJ6CI8][next few weeks]], leaving users and websites little time to react to the change. 
+
+* Alternates
+Even if a website decided to make changes to their site, there are few options to the /Like/ button that do not involve severing all Facebook integration. One solution would be to replace the /Like/ button, along with badges from other sites, with a generic [[http://bit.ly/KJ91ma][social bookmarking widget]].
+
+That said, only [[http://brightpinkstudio.com/pinkink/resources/social-bookmarking-widgets/3/][five of the top ten]] social bookmarking widgets do not add tracking to their own widgets.
+
+The bottom line is that Facebook, likely due to pressure from their recent IPO and their [[http://bit.ly/KJ9Ds6][plummeting stock price]], has decided to enlist, rather, /to draft/ millions of sites into providing Facebook with valuable information at the cost of invading the users of those sites.
+
+As this change in policy seems to leave Facebook as the only clear winner with users and other websites as losers, I think the phrase /win-lose-lose/ is more appropriate Though probably not a good sales pitch.
+
+* Update <2012-06-14 Thu 12:39>
+Just saw that Facebook allowed its users to [[http://huff.to/JSfscI][vote]] on the changes to its privacy policy. That said, comparing an old and a proposed privacy policy and understanding what the ramifications are is a very difficult task. Especially when there is little publicity about the voting process.
+
+If if you heard about the voting, waded the through the privacy policy's legal jargon, understood how the change would affect you, and decided to vote, your vote wouldn't have counted.
+
+Facebook said that they would consider any vote on their privacy policy as /advisory/ unless a third of their 900M active users voted. The lack of publicity around the privacy policy change and  [[http://onforb.es/KYar2D][serious questions]] about the veracity of Facebook's claim of 900M active users all but guaranteed that, whatever the votes were, they would be /advisory/.

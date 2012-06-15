@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Secure Password Generator</title>
+    <script type="text/javascript"
+            src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/rollups/hmac-sha512.js">
+    </script>
+    <script type="text/javascript"
+            src="http://crypto-js.googlecode.com/svn/tags/3.0.2/build/components/enc-base64-min.js">
+    </script>
+
+    <script type="text/javascript">
+      $(function() {
+          function passwordify(input) {
+              var b64 = input.toString(CryptoJS.enc.Base64);
+              var pwd = b64.substr(0, 8);
+              var num = b64.charCodeAt(10) % 10;
+              var sym_index = b64.charCodeAt(11) % 10;
+              var sym = syms.substring(sym_index, sym_index + 1);
+              pwd = pwd + num + sym;
+              return pwd;
+          }
+
+          var syms="!@#$%^&*()";
+          function doHash() {
+              var master_elt = document.getElementById("master");
+              master = master_elt.value;
+              master_elt.value = "";  // Remove pwd from browser ASAP
+
+              var salt = "";
+              salt = salt + document.getElementById("salt1").value;
+              salt = salt + document.getElementById("salt2").value;
+              salt = salt + document.getElementById("salt3").value;
+              salt = salt + document.getElementById("salt4").value;
+              salt = salt + document.getElementById("salt5").value;
+              
+              var site = document.getElementById("site").value;
+
+              var iterations = 100;
+              var hash = site;
+
+              hash = Crypto.PBKDF2("1234", salt, 32, { iterations: 1000 });
+              // CryptoJS.HmacSHA512(hash, master + salt );
+
+              
+              pwd = passwordify(hash);
+              alert("Password is: " + pwd + ".");
+
+              return false;
+          }
+
+          // set effect from select menu value
+          $( ".help" ).click(function() {
+              toggleHelp("first-time");
+              return false;
+          });
+
+          $( "#get-password" ).click(function() {
+              doHash();
+              return false;
+          });
+      });
+    </script>
+    <style type="text/css">
+      .help { padding: .5em 1em; text-decoration: none; }
+      #effect { width: 240px; height: 135px; padding: 0.4em; position: relative; }
+      #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+      .ui-effects-transfer { border: 2px dotted gray; }
+      .hidden { display: none; }
+      .wrapper { background-color: #DDDDDD; padding: 10px; width: 440px; border: 1px black solid; }
+      .form-fields { background-color: #EEEEEE; } 
+      legend { font-size: 150%; font-weight: bold; }
+      .fields-wrapper { margin-left: 20px; }
+      .fields input { margin-bottom: 10px; }
+      .fields { text-align: right; position: relative; right: 30%; }
+      .button { text-align: left; position: relative; left: 30%; }
+      #footer { position: absolute; bottom: 5px; text-align: center;
+                background-color: #EEEEEE; border: 1px black solid;
+                padding: 5px; }
+      //.help { color: #6666FF; background-color: #FFFFFF; padding: 8px; border: 1px black solid; }
+    </style>
+  </head>
+  
+  <body>
+    <div id="whole-shebang">
+      <div class="wrapper">
+        <form action="">
+          <fieldset class="form-fields">
+            <legend class="title">
+              SPG: Secure Password Generator
+            </legend>
+            <div class="fields-wrapper">
+              <!-- ================================================================ 
+                   <span id="first-time-help" class="help">I am new to SPG.</span>
+                   <div id="first-time" class="ui-widget-content ui-corner-all hidden">
+                   <h3 class="ui-widget-header ui-corner-all">Effect</h3>
+                   <p>
+                   Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                   </p>
+                   </div> <!- effect ->
+                   <span id="first-time-gotit" class="help hidden">Ok. I got it.</span>
+                   ================================================================ -->
+              <a href="./spg-master-password/index.html" title="Instructions for first-time users.">
+                First time user?
+              </a>
+              <br/>
+              <a href="./spg-master-password/index.html" title="Instructions for first-time users.">
+                Need a master password?
+              </a>
+              <div class="fields">
+                <div class="password">
+                  Master Password: <input type="password" id="master" value="aaa" />
+                </div> <!-- password -->
+                <div class="salt">
+                  The day of the month you were born on (1-31): <input type="text" id="salt1" value="aaa" />
+                </div> <!-- salt -->
+                <div class="salt">
+                  Your mother's full name (first, middle, maiden, last, etc...): <input type="text" id="salt2" value="aaa" />
+                </div> <!-- salt -->
+                <div class="salt">
+                  Your father's full name (first, middle, last, etc...): <input type="text" id="salt3" value="aaa" />
+                </div> <!-- salt -->
+                <div class="salt">
+                  The city or town where you were born: <input type="text" id="salt4" value="aaa" />
+                </div> <!-- salt -->
+                <div class="salt">
+                  One more piece of data that you remember: <input type="text" id="salt5" value="aaa" />
+                </div> <!-- salt -->
+                <div class="website">
+                  Website: <input type="text" id="site" value="aaa" />
+                </div> <!-- website -->
+              </div> <!-- fields -->
+              <div class="button">
+                <input type="button" id="get-password" value="Get Password"/> <br />
+              </div> <!-- button -->
+            </div> <!-- fields-wrapper -->
+          </fieldset> <!-- form-fields -->
+        </form>
+      </div> <!-- wrapper -->
+      <div id="footer">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+        <br />
+        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Secure Password Generator</span>
+        by
+        <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.neilsmithline.com" property="cc:attributionName" rel="cc:attributionURL">Neil Smithline</a>
+        is licensed under a
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.neilsmithline.com/password.html" rel="dct:source">www.neilsmithline.com</a>.
+        <br />
+        Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.neilsmithline.com/contact" rel="cc:morePermissions">http://www.neilsmithline.com/contact</a>.
+      </div> <!-- footer -->
+      </div> <!-- whole-shebang -->>
+  </body>
+</html>

@@ -1,0 +1,13 @@
+#+BEGIN_HTML
+
+---
+layout:         page
+title:          "new-page"
+date:           2012-06-11 10:52
+comments:       true
+sharing:        true
+footer:         true
+published:       false
+---
+
+#+END_HTML
