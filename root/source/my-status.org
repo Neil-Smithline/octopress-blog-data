@@ -272,3 +272,10 @@ CLOSED: [2012-06-14 Thu 23:25]
 - State "DONE"       from "POST"       [2012-06-14 Thu 23:25]
 :END:
 Android: powerful, many choices, customizable, but unrefined. iOS: tightly integrated, easy to use, but less powerful cnet.co/M9YVLp
+***** 2012-06-15 Friday
+******* DONE Malware Respirators [2012-06-15 Fri 18:29]      :TWEET:NS:
+CLOSED: [2012-06-15 Fri 18:32]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-15 Fri 18:32]
+:END:
+What do you do when society's reliance on computing is growing faster than secure computing habits?  http://bit.ly/McRYvg
