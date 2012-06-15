@@ -266,3 +266,9 @@ CLOSED: [2012-06-14 Thu 11:40]
 - State "DONE"       from "POST"       [2012-06-14 Thu 11:40]
 :END:
 Blog posting: "The New, Privacy Invading, Facebook Like Button" http://bit.ly/M7Igbc Thanks to @jcleblanc for the article pointer
+******* DONE Android v. iOS [2012-06-14 Thu 23:24]           :TWEET:NS:
+CLOSED: [2012-06-14 Thu 23:25]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-14 Thu 23:25]
+:END:
+Android: powerful, many choices, customizable, but unrefined. iOS: tightly integrated, easy to use, but less powerful cnet.co/M9YVLp
