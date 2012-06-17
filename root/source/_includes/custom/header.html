@@ -12,5 +12,17 @@
     <h2>{{ site.subtitle }}</h2>
   {% endif %}
 
+  {% if site.forkme_side %}
+    <a href="https://github.com/{{ site.github_user }}">
+      <img
+          style="position: absolute;
+            top: 0;
+            {{ site.forkme_side }}: 0;
+            border: 0;"
+         src="https://s3.amazonaws.com/github/ribbons/forkme_{{ site.forkme_side }}_{{ site.forkme_color }}.png" alt="Fork me on GitHub"></img></a>
+
+  {% endif %}
+  
+
 
 </hgroup>

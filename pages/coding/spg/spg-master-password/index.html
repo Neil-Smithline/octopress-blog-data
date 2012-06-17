@@ -7,7 +7,7 @@
 <meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
 <meta name="title" content="---"/>
 <meta name="generator" content="Org-mode"/>
-<meta name="generated" content="2012-06-13 20:19:38 EDT"/>
+<meta name="generated" content="2012-06-15 19:48:01 EDT"/>
 <meta name="author" content="Neil Smithline"/>
 <meta name="description" content=""/>
 <meta name="keywords" content=""/>
@@ -148,15 +148,12 @@ published:      true
             var b64 = input.toString(CryptoJS.enc.Base64);
             var pwd = b64.substr(0, size);
             var pwd_array = pwd.split("");
-alert("pwd.len=" + pwd.length + ", array.len=" + pwd_array.length);
 
             for (i=0; i < special.length; i++) {
                 var index = max_rand(special[i].length);
                 var spcl_char = special[i].substring(index, index + 1);
                 var location = max_rand(pwd_array.length);
                 pwd_array.splice(location, 0, spcl_char);
-alert("i=" + i + ", len=" + pwd_array.length);
-
             }
 
             return pwd_array.join("");

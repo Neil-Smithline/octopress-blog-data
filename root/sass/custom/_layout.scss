@@ -1,4 +1,4 @@
-// Here you can easily change your sites's layout.
+// Here you can easily change your sites layout.
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
 //$header-font-size: 1em;
@@ -19,3 +19,40 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+//aside.sidebar section.sociallink h1 {
+//    border-bottom: 0;
+//    box-shadow: none;
+//    height: 32px;
+//}
+//
+//aside.sidebar section.sociallink h1 a { text-decoration: none; }
+//
+//aside.sidebar section.sociallink img { float:left; border: 0; margin-right: 0.5em; }
+
+section.sociallink {
+  h1 {
+       -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+         -o-box-shadow: none !important;
+            box-shadow: none !important;
+    border-bottom: 0px none !important;
+  }
+  a {
+    text-decoration: none;
+    white-space: normal !important;
+    line-height: 32px;
+
+    img {
+      float: left;
+      margin-right: 0.5em;
+      border: 0 none;
+    }
+  }
+}
+
+.googleplus-hidden {
+  position: absolute;
+  top: -1000em;
+  left: -1000em;
+}

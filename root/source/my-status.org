@@ -279,3 +279,14 @@ CLOSED: [2012-06-15 Fri 18:32]
 - State "DONE"       from "POST"       [2012-06-15 Fri 18:32]
 :END:
 What do you do when society's reliance on computing is growing faster than secure computing habits?  http://bit.ly/McRYvg
+******* DONE Later Les [2012-06-15 Fri 22:28]                :TWEET:NS:
+CLOSED: [2012-06-15 Fri 22:34]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-15 Fri 22:34]
+:END:
+******* DONE Les and Org Mode  [2012-06-15 Fri 22:35]        :TWEET:NS:
+CLOSED: [2012-06-15 Fri 22:41]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-15 Fri 22:41]
+:END:
+Contemplating bit.ly/OURN9H I realized that #markdown was designed to simplify formatting while #orgmode tries to simplify life

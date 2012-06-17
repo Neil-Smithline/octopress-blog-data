@@ -46,7 +46,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, custom/asides/diigo.html, custom/asides/facebook.html, custom/asides/twitter.html, custom/asides/github.html, custom/asides/linked_in.html, custom/asides/klout.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -72,10 +72,6 @@ twitter_follow_button: true
 twitter_show_follower_count: false
 twitter_tweet_button: true
 
-# Google +1
-google_plus_one: true
-google_plus_one_size: medium
-
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
 googleplus_user: 104257546204106753046
@@ -100,7 +96,36 @@ google_analytics_tracking_id: UA-25833963-1
 # Facebook Like
 facebook_like: false
 
+
 # Moz Affiliates
-moz_affiliates_href: http://affiliates.mozilla.org/link/banner/18996
-moz_affiliates_img: http://affiliates.mozilla.org/media/uploads/banners/a47240839834560ba213f2ed7df82697d6bc7766.png
+moz_affiliates_href: //affiliates.mozilla.org/link/banner/18996
+moz_affiliates_img: //affiliates.mozilla.org/media/uploads/banners/a47240839834560ba213f2ed7df82697d6bc7766.png
 moz_affiliates_alt: Download Aurora
+
+# Fork Me On Github Ribbons
+# Must be "left" or "right". Leave blank to have no ribbon.
+forkme_side: right
+
+# Must be one of "red_aa0000", "green_007200", "darkblue_121621",
+# "orange_ff7600", "gray_6d6d6d", or "white_ffffff"
+forkme_color: gray_6d6d6d
+
+###########################################################################
+# Aside Social Links
+###########################################################################
+
+# Google +1
+google_plus_one: true
+google_plus_one_size: medium
+
+# Facebook
+facebook_user: neil.smithline
+
+# LinkedIn
+linkedin_user_id: 2519386
+
+# Diigo Bookmarks
+diigo_user: neilsmithline
+
+# Klout
+klout_user: neil_smithline

@@ -1,0 +1,41 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title1:         "The O's Have It: Octopress And Org Mode Make It Work"
+date:           2012-06-15 21:49
+comments:       true
+categories:     [blogging-tech,octopress,jekyll,orgmode,emacs]
+published:       false
+---
+
+#+END_HTML
+
+* Octopress Makes It Work
+I changed my blogging platform, twice, based on words of wisdom that I read on
+[[http://bit.ly/JH7cIy][0xdecafbad.com]]. It talked about the wonders of plain-text blogs. I immediately
+related to what Les, the brains behind 0xdecadbad.com, was advocating.
+
+After reading Les's blog, I looked around and found other passionate [[http://bit.ly/OUHL8z][plain-text
+bloggers]]. While plain text bloggers came in all shapes and sizes, the most common combination of technologies seemed to be:
+- [[http://bit.ly/NED8BC][Editor]]: [[http://bit.ly/OUId71][vim]] 
+- [[http://bit.ly/KVSZtG][Markup language]]: [[http://bit.ly/OUHYIW][Markdown]]
+- [[http://bit.ly/NEDdVP][Blogging platform]]: [[https://github.com/mojombo/jekyll/wiki][Jekyll]]
+- [[http://bit.ly/NEDjwA][Blog hosting]]: [[http://bit.ly/JkshbU][Github]] 
+
+Before actually looking at any of the above technologies, I new that vim wasn't
+going to do it for me. After abandoning [[http://bit.ly/NEDEPQ][vi]], vim's predecessor, 25+ years ago for [[http://bit.ly/NEDAzI][GNU
+Emacs]], I have never looked back. 
+
+I don't argue that Emacs is better than vim. It seems to me that the choice of an editor is a personal choice. Some people like one editor, some another, and others like whichever editor is handiest. That said, for me, Emacs is the best. My only problem with Emacs is that I can't use it for more things. While doing all my editing in Emacs would require a lot of work, I have recently incorporated my [[http://bit.ly/MXaEQH][tweeting into Emacs]] and, despite some razzing from non-Emacs users, have had no regrets.
+
+
+
+ different people do better merits of
+different editors are different for different people. Having been both a vi and Emacs
+user, I can confidently say that Emacs' editing model works better for me.
+
+I love Emacs. chose to use [[http://bit.ly/zhYdcB][Org
+Mode]] in
+
+[[http://decafbad.com/blog/2012/06/15/303-see-other[
