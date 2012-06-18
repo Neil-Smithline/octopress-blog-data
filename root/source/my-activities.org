@@ -21,3 +21,6 @@ Got tired of all these password cracking cases cause people to have to change ma
 ***** 2012-06-14 Thursday
 ******* Facebook User Tracking Blog Posting [2012-06-14 Thu 12:32]
 [[http://bit.ly/M7Igbc][Blogged]] about my not-very-happy feelings about Facebook's new tracking program. Very bad.
+***** 2012-06-17 Sunday
+******* Blog Theme [2012-06-17 Sun 12:09]
+Added some extra social links to my blog.

@@ -290,3 +290,10 @@ CLOSED: [2012-06-15 Fri 22:41]
 - State "DONE"       from "POST"       [2012-06-15 Fri 22:41]
 :END:
 Contemplating bit.ly/OURN9H I realized that #markdown was designed to simplify formatting while #orgmode tries to simplify life
+***** 2012-06-17 Sunday
+******* DONE irresponsibly massive commit [2012-06-17 Sun 14:16] :TWEET:NS:
+CLOSED: [2012-06-17 Sun 14:18]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-17 Sun 14:18]
+:END:
+My favorite Github commit message 'irresponsibly massive commit'. Funny only because the engineer, @imathis, is anything but irresponsible

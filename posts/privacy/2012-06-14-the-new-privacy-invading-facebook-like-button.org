@@ -6,6 +6,7 @@ description:       "Facebook's new user tracking policy at the cost of your priv
 date:              "2012-06-14 Thu 10:51:01"
 layout:            post
 comments:          true
+categories:        [privacy, online-freedom] 
 published:         true
 ---
 #+END_HTML

@@ -46,7 +46,9 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, custom/asides/diigo.html, custom/asides/facebook.html, custom/asides/twitter.html, custom/asides/github.html, custom/asides/linked_in.html, custom/asides/klout.html]
+
+# custom/asides/related.html
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, custom/asides/diigo.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/twitter.html, custom/asides/github.html, custom/asides/linked_in.html, custom/asides/klout.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -110,6 +112,9 @@ forkme_side: right
 # "orange_ff7600", "gray_6d6d6d", or "white_ffffff"
 forkme_color: gray_6d6d6d
 
+# Related posts per https://github.com/jcftang/octopress-relatedposts
+# lsi: true
+
 ###########################################################################
 # Aside Social Links
 ###########################################################################
@@ -129,3 +134,6 @@ diigo_user: neilsmithline
 
 # Klout
 klout_user: neil_smithline
+
+# Coderwall
+coderwall_user: neilsmithline
