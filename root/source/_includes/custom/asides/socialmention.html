@@ -1,0 +1,22 @@
+{% if page.topic_search %}
+<section class="socialmention">
+  <h1>{{ page.topic_title }} Buzz</h1>
+    <script type="text/javascript">
+      // search phrase (replace this)
+      var smSearchPhrase = '{{ page.topic_search }}';
+      // title (optional)
+      var smTitle = '{{ page.topic_title }} News Around The Web';
+      // items per page
+      var smItemsPerPage = 3;
+      // show or hide user profile images
+      var smShowUserImages = true;
+      // widget font size in pixels
+      var smFontSize = 11;
+      // height of the widget
+      var smWidgetHeight = 600;
+      // sources (optional, comment out for "all")
+      //var smSources = ['twitter', 'facebook', 'googleblog', 'identica'];
+    </script>
+    <script type="text/javascript" language="javascript" src="http://socialmention.s3.amazonaws.com/buzz_widget/buzz.js"></script>
+</section>
+{% endif %}

@@ -2,7 +2,6 @@
 #      Main Configs       #
 # ----------------------- #
 
-
 url: http://www.neilsmithline.com
 title: My Geekdom
 subtitle: Ramblings about my nerdy pursuits.
@@ -48,7 +47,7 @@ titlecase: true       # Converts page and post titles to titlecase
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 
 # custom/asides/related.html
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html, custom/asides/diigo.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/twitter.html, custom/asides/github.html, custom/asides/linked_in.html, custom/asides/klout.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, custom/asides/twitter.html, custom/asides/linked_in.html, asides/googleplus.html, custom/asides/github.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/diigo.html, custom/asides/klout.html, custom/asides/socialmention.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -110,7 +109,7 @@ forkme_side: right
 
 # Must be one of "red_aa0000", "green_007200", "darkblue_121621",
 # "orange_ff7600", "gray_6d6d6d", or "white_ffffff"
-forkme_color: gray_6d6d6d
+forkme_color: red_aa0000
 
 # Related posts per https://github.com/jcftang/octopress-relatedposts
 # lsi: true

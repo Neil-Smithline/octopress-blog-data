@@ -7,6 +7,8 @@ date:              "2012-06-14 Thu 10:51:01"
 layout:            post
 comments:          true
 categories:        [privacy, online-freedom] 
+topic_search:      facebook AND privacy
+topic_title:       Facebook Privacy
 published:         true
 ---
 #+END_HTML

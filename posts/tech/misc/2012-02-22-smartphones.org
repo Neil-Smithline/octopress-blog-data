@@ -7,6 +7,8 @@ layout:            post
 date:              2012-02-22 18:38:14
 categories:        [tech, mobile, smartphones]
 comments:          true        
+topic_search:      smartphone
+topic_title:       Smartphones
 published:         true
 author:            Neil Smithline
 ---

@@ -6,6 +6,8 @@ layout:            post
 date:              2012-03-31 Sat 20:35
 categories:        [tech, litigious-trio, mobile, smartphones]
 comments:          true        
+topic_search:      rim AND blackberry
+topic_title:       RIM
 published:         true
 author:            Neil Smithline
 ---

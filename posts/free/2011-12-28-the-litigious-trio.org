@@ -6,6 +6,8 @@ layout:             post
 date:               2011-12-28 Wed 12:04:20
 categories:         [online-freedom, litigious-trio, litigation]
 published:          true
+topic_search:       (google OR apple OR microsoft) AND (legal OR lawsuit OR suit OR court)
+topic_title:        Litigation
 author:             Neil Smithline
 ---
 #+END_HTML

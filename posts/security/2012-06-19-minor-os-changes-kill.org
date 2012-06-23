@@ -1,0 +1,66 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title1:         "Minor OS Changes Can Kill?"
+date:           2012-06-19 08:50
+comments:       true
+categories:     []
+published:      false
+---
+
+#+END_HTML
+
+* The Future Is Unpredictable Because It Is The Future
+The future presents all sorts of problems for software simply because the future hasn't happened yet. Try as you may, you can't predict it. This means that:
+#+BEGIN_QUOTE
+When you are writing an application, the application must be have remediations for security problems that are known as well as problems that haven't yet been discovered.
+#+END_QUOTE
+
+While it would be ideal if you could prepare for security problems past, present, and, future, it is, alas, impossible. That said, there are steps you can take to better safeguard your application for, rather, /against/ the future.
+
+* A Real-Life Example
+The seed for this posting started to germinate when I read this [[http://bit.ly/MKirid][Gizmodo article]]. I was distressed that people were dying from a computer problem. As it turns out, when I looked further into the research, it appears that Gizmodo's reporting was simply irresponsible. [1]
+
+The [[http://1.usa.gov/MKjwqj][research]] examined the [[http://bit.ly/MKjheD][FreeSurfer]] visualization tool that is used in medical research to examine the results of MRI and CT scans. The research, which is [[http://bit.ly/MKke6L][summarized in this article]], determined that FreeSurfer produced size measurements of portions of the brain that differed by as much as 15% between:
+  - Different versions of FreeSurfer.
+  - The Windows and the Mac OS X executable of the same version of FreeSurfer.
+  - Updates of Mac OS X.
+
+The article even came with sexy art ([[http://1.usa.gov/LyWAj9][see all available images]])
+[[http://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=3365894_pone.0038234.g003.jpg]]
+
+While I don't particularly care about the FreeSurfer application and its problems, I am certain that FreeSurfer is not the only application whose behavior changes based on OS or even OS versions.
+
+* Challenges Of Modern Enterprise Computing
+
+
+
+
+
+* Footnotes
+
+[1] I understand that the word /irresponsible/ is something that should not be used likely when discussing a news source's integrity. I understand that anyone can make a mistake and produce an incorrect article. 
+
+But it is now days after the mistake became evident. Furthermore, one of the [[http://bit.ly/MKke6L][sources]]
+quoted in Gizmodo article added this text, in a red font, to the beginning of the
+article:
+#+BEGIN_QUOTE
+*Update* - A number of articles linking to this post are wrongly stating that
+FreeSurfer is medical software used to diagnose diseases or measure the size of brain
+tumors. It's not. It is purely for research purposes as the software license states,
+/"The Software has been designed for research purposes only and has not been reviewed
+or approved by the Food and Drug Administration or by any other agency. CLINICAL
+APPLICATIONS ARE NEITHER RECOMMENDED NOR ADVISED."/
+#+END_QUOTE
+
+I understand that in today's fast moving digital world, correcting every mistake can
+be time consuming and costly. But, IMO, publishing incorrect health care seems to be
+something that requires a correction. Especially if your article has sensationalistic 
+and incorrect statements about the reliability of medical tests. 
+
+For example:
+#+BEGIN_QUOTE
+The finding is completely crazy, and casts doubt over the way many scans—such as CT and MRI—are analyzed in routine practice.
+#+END_QUOTE
+

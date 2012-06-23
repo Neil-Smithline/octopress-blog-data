@@ -104,7 +104,6 @@ CLOSED: [2012-05-31 Thu 10:21]
 :END:
 New front and back touch display. Video mediocre as it is transparent but tons of touch patterns for gaming http://engt.co/LJEVju
 *** 2012-06 June
-***** 2012-06-02 Saturday
 ******* DONE Passwords - part 2 [2012-06-02 Sat 13:37]       :TWEET:NS:
 CLOSED: [2012-06-02 Sat 13:40]
 :LOGBOOK:
@@ -297,3 +296,59 @@ CLOSED: [2012-06-17 Sun 14:18]
 - State "DONE"       from "POST"       [2012-06-17 Sun 14:18]
 :END:
 My favorite Github commit message 'irresponsibly massive commit'. Funny only because the engineer, @imathis, is anything but irresponsible
+***** 2012-06-18 Monday
+******* DONE RIP, Nokia (1865 – 2014) [2012-06-18 Mon 12:09] :TWEET:NS:
+CLOSED: [2012-06-18 Mon 12:11]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-18 Mon 12:11]
+:END:
+It looks like a 2 horse race with #iPhone and #Android for the foreseeable future: RIP, #Nokia (1865 – 2014) http://bit.ly/M18uSn
+******* DONE SASS Wow! [2012-06-18 Mon 15:18]                :TWEET:NS:
+CLOSED: [2012-06-18 Mon 15:28]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-18 Mon 15:28]
+:END:
+#Octopress showed me that #CSS should have been #SASS. Later CSS long line of #selectors, hello nested selectors http://bit.ly/KOuiNo
+******* DONE Google Magnolia Patents [2012-06-18 Mon 16:35]  :TWEET:NS:
+CLOSED: [2012-06-18 Mon 16:37]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-18 Mon 16:37]
+:END:
+You know technology #IP laws are broken when #Google makes news just for buying 50 #patents http://bit.ly/M7Hq05
+******* DONE SAFE Samsung [2012-06-18 Mon 17:02]             :TWEET:NS:
+CLOSED: [2012-06-18 Mon 17:07]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-18 Mon 17:07]
+:END:
+#RIM's demise has left a market gap in secure #enterprise #smartphones that #Samsung's new #SAFE phones are targeting http://bit.ly/M7Lpto
+******* DONE Sharp Aquos [2012-06-18 Mon 21:05]              :TWEET:NS:
+CLOSED: [2012-06-18 Mon 21:12]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-18 Mon 21:12]
+:END:
+#Sharp's 90" #Aquos 3D life-size TV is 6'8" and at 5" thick and 170lbs it is thinner and lighter than me http://engt.co/M2ksep
+***** 2012-06-19 Tuesday
+******* DONE MS Surface Tablet [2012-06-19 Tue 11:56]        :TWEET:NS:
+CLOSED: [2012-06-19 Tue 12:01]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-19 Tue 12:01]
+:END:
+#Microsoft trying to grow its mobile presence announces #Surface #Tablet. Surprise! MS is selling the hardware on.mash.to/MKxurW
+***** 2012-06-20 Wednesday
+******* DONE Canada Is Listening [2012-06-20 Wed 01:42]      :TWEET:NS:
+CLOSED: [2012-06-20 Wed 20:14]
+:LOGBOOK:
+:END:
+Watch what you say in a Canadian airport as the government has bugged airports as part of an anti-terrorism plan bit.ly/KjHKHv
+******* DONE FBI & DEA IPv6 [2012-06-20 Wed 20:05]           :TWEET:NS:
+CLOSED: [2012-06-20 Wed 20:14]
+:LOGBOOK:
+:END:
+FBI & DEA concerned that IPv6 will make it too hard for them to blackmail ISPs into violating customer #privacy http://bit.ly/KNT30U
+******* DONE Google Defies Governments [2012-06-20 Wed 20:11] :TWEET:NS:
+CLOSED: [2012-06-20 Wed 20:14]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-20 Wed 20:14]
+:END:
+#Google may be a huge monster but size has its benefits. Eg: Saying "no" to
+#governments to protect #freedom of speech http://bit.ly/KNTKaw
