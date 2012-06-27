@@ -355,3 +355,13 @@ CLOSED: [2012-06-20 Wed 20:14]
 
 
 Unbelievable soap opera of high-tech #patent law: http://buswk.co/LUpASp. No surprise that the companies are #microsoft, #google, & #apple
+***** 2012-06-26 Tuesday
+******* DONE WIPO [2012-06-26 Tue 16:45] :TWEET:NS
+CLOSED: [2012-06-26 Tue 16:48]
+:LOGBOOK:
+- State "DONE"       from "POST"       [2012-06-26 Tue 16:48]
+:END:
+More international #copyright/#IP ridiculousness. #WIPO looking to remove worldwide 'fair use', retroactively! bit.ly/NJz2Hn
+k
+*******  POST Pogue On Privacy [2012-06-26 Tue 17:22] :TWEET:NS
+David #Pogue on (A) you have no privacy now, (B) it’s only going to get worse, and (C) you’re really not that interesting. bit.ly/MR2YR2 David #Pogue, 
