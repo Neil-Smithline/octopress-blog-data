@@ -7,7 +7,7 @@ description:       "GoDaddy, in an outstanding outpouring of propaganda, has spo
 categories:        [free-speech]
 comments:          true         
 published:         true
-topic_search:      "online freedom" OR "free speech" OR sopa
+topic_search:      '"online freedom" OR "free speech" OR sopa'
 topic_title:       Online Freedom
 author:            Neil Smithline
 ---
