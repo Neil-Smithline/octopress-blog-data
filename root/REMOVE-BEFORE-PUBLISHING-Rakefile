@@ -33,7 +33,7 @@ yaml_prefix     = "#+BEGIN_HTML"    # Text to put in front of YAML front matter
 yaml_suffix     = "#+END_HTML"      # Text to put in front of YAML front matter
 
 # Additional YAML front matter to use
-yaml_misc       = "published:       false"
+yaml_misc       = "published:      false\ntopic_title:    ''\ntopic_search:   ''"
 
 desc "Initial setup for Octopress: copies the default theme into the path of Jekyll's generator. Rake install defaults to rake install[classic] to install a different theme run rake install[some_theme_name]"
 task :install, :theme do |t, args|
@@ -109,7 +109,6 @@ task :new_post, :filename do |t, args|
     title = filename
     post_dir.concat($1.downcase.sub(/^\//, '').split('/')) unless $1.nil?  # Add path to post_dir Array
     if extension.nil?
-      post_dir << filename
       filename = "#{Time.now.strftime('%Y-%m-%d')}-#{title.to_url}"
     end
     extension ||= new_post_ext

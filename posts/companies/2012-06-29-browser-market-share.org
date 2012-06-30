@@ -1,0 +1,67 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title1:         "Technology Market Share"
+date:           2012-06-29 15:49
+comments:       true
+categories:     []
+published:      false
+topic_title:    ''
+topic_search:   ''
+---
+
+#+END_HTML
+
+* The Times They Are a-Changin'
+The [[http://bit.ly/LlZzYb][high tech]] industry has always been a tumultuous place. Companies come and go. Today's leaders become tomorrow's losers. Companies boom then bust and then boom again. Even against this background of constant change, there are times when changes in the tech industry are especially noticeable.
+
+In the words of the immortal [[http://bit.ly/Lm3Z1c][Bob Dylan]], [[http://bit.ly/Lm4c4G][the times they are a-changing]]
+
+* The Changes
+While no single change is indicative of a market shake-up, one must notice when drastic changes occur. Have their been drastic changes? I think so but I'll let you decide. As I'm claiming the changes are drastic and happened over a short period of time, I'll only present facts dating back to 2004. 
+
+
+- In February of 2004, [[http://bit.ly/LmctW9][Facebook was formed]].
+- In August of 2004, [[http://bit.ly/r1GLJZ][Google]] had its [[http://en.wikipedia.org/wiki/IPO][IPO]].
+- In 2007, [[http://bit.ly/Lm4qJ0][Microsoft]] lost an [[http://bit.ly/Lm5BIv][antitrust]] [[http://1.usa.gov/Lm5LQ7][suit in the US]]. They lost a similar suit in Europe in 2008. The antitrust suits focused on how Microsoft was using its dominance of desktop computers to force its web browser, Internet Explorer, on its customers. Incidentally, it was earlier this week that Microsoft [[http://1.usa.gov/Lm5LQ7][exhausted its appeals]] and will have to pay the billion dollar fine from the European suit.
+- While calculating [[http://bit.ly/KItM20][web browser]] [[http://en.wikipedia.org/wiki/Market_share][market share]] is far from an exact science (see [[http://bit.ly/Lm8okW][Browser usage reports: Lies, damn lies, and statistics]]), the Wikipedia's article on the [[http://bit.ly/Lm8yIR][market share of browsers]] has numerous, frequently contradictory, statistics. Based on the statistics of [[http://bit.ly/Lm8Yz1][StatCounter]], in September 2008, browser market share was:
+
+     |-------------------+-----|
+     | Internet Explorer | 67% |
+     | Chrome            |  1% |
+     | Firefox           | 26% |
+     | Safari            |  3% |
+     | Opera             |  3% |
+     | Mobile            | <1% |
+     |-------------------+-----|
+
+  Note that the /mobile/ browsers were primarily older, [[http://bit.ly/NetwrF][WAP-based]] browsers. 
+- In May 2012, the browser market share is:
+ 
+    |-------------------+-------+---------+--------|
+    |                   | Total | Desktop | Mobile |
+    |-------------------+-------+---------+--------|
+    | Internet Explorer |   29% | N/A     | N/A    |
+    | Chrome            |   29% | N/A     | N/A    |
+    | Firefox           |   23% | N/A     | N/A    |
+    | Safari            |    9% | 6%      | 3%     |
+    | Opera             |    4% | 2%      | 2%     |
+    | Android           |    2% | N/A     | 2%     |
+    |-------------------+-------+---------+--------|
+
+  It should be noted that StatCounter limits its statistics to browsers that have had a consistently high market share. As such, it isn't providing statistics for newer mobile browsers such as Firefox on Android (first viable version released [[http://bit.ly/NexjoV][26 June 2012]]), Chrome on Android (released [[http://bit.ly/Nex2lR][29 June 2012]]), Chrome on iOS (released [[http://bit.ly/NewTyL][29 June 2012]] instantly becoming the [[http://bit.ly/NextwD][#1 free app]] for iOS), and, surprisingly, the popular, cross-platform [[http://bit.ly/NexCA5][Dolphin browser]].
+
+  While the market share of those browsers is unclear, it is certain that Internet Explorer, the browser with two thirds of the marketplace in 2008, will lose market share as Windows 7 Mobile has very little [[http://bit.ly/NeyuET][market penetration]].
+- [[http://bit.ly/JvoqLE][Twitter was born mid-2006]]. Since then Twitter, accurately or not, [[http://bit.ly/KILl28][has been credited]] for major political changes such as the so-called [[http://bit.ly/LmdKMY][Arab Spring]]. Currently, Twitter is being used by the [[http://bit.ly/NeBh0R][Colorado Springs]] Fire Department to provide residents timely updates of the [[http://bit.ly/NeBa5b][large fires]] in the area. At the time of writing this, [[http://bit.ly/NeBMI8][@CSFDPIO]] has 3,700 followers and 16 tweets in less than 2 hours.
+- Facebook's mid-May 2012 IPO has been [[http://buswk.co/NeCoO7][maligned by the press]]. Over that time, the company has had its market capitalization drop by [[http://onforb.es/NeDKs6][$21 billion]]. But considering that Facebook started with a market capitalization over $90 billion dollars, it is still a highly valued company. Especially when compared to the market capitalization of long-term high-tech notables such as Hewlett Packard ([[http://yhoo.it/NeFUYB][$37 billion]] market cap), Microsoft ([[http://yhoo.it/NeGhT4][$257 billion]] market cap), and Oracle, actually Oracle + BEA Systems + Sun Microsystems, ([[http://yhoo.it/NeGCVU][$145 billion]] market cap).
+
+
+
+FB & Google IPO http://www.forbes.com/sites/darcytravlos/2012/05/16/facebook-and-the-google-ipo/
+
+[[http://on.mash.to/KIJFpj][iphone change world]]
+
+
+I thought about splitting the list into two lists: a /before/ and an /after/ list. But that implies that whatever changes have been happening are done. I certainly don't see signs of that.
+
