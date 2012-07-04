@@ -13,24 +13,41 @@ topic_search:   ''
 
 #+END_HTML
 
+#+OPTIONS: toc:10
+
 #+TAGS:
-#+TAGS: apple(A) linux(L) oracle(O) rh(R) facebook(F) twitter(W) google(G) microsoft(M) 
+#+TAGS: apple(A) linux(L) oracle(O) rs(R) facebook(F) twitter(W) google(G) microsoft(M) 
 #+TAGS: mozilla(O) RIM(B) amazon(N) android(D)
 
 #+TAGS: news(n) politics(t) social(s) biz(z) legal(l) browser(b) home(h)
 #+TAGS: cloud(c) virtual(v) mobile(m) internet(i) phone(p) enterprise(e)
 
 * The Times They Are a-Changin'
-The [[http://bit.ly/LlZzYb][high tech]] industry has always been a tumultuous place. Companies come and go. Today's leaders become tomorrow's losers. Companies boom then bust only to boom again. 
+The [[http://bit.ly/LlZzYb][high-tech]] industry has always been a tumultuous place. Companies come and go. Today's leaders become tomorrow's losers. Companies boom then bust only to boom again. At least to me, it seems that changes are coming faster and faster.
 
 While I have no insight into what [[http://bit.ly/Lm3Z1c][Bob Dylan]] was thinking when he wrote the song, clearly [[http://bit.ly/Lm4c4G][the times they are a-changin']].
 
-* The Changes
-While no single change is indicative of a market shake-up, one must notice when drastic changes occur. Have their been drastic changes? I think so but I'll let you decide. As I'm claiming the changes are drastic and happened over a short period of time, I'll only present facts dating back to 2004. 
+Have there been many recent drastic changes? I think so but I'll let you decide. Below is an ideosynchratic collection of facts dating back to 2004. 
 
-*** Dates
+*** Microsoft Rules
+***** 2007                                                                  :microsoft:legal:browser:mobile:internet:
+[[http://bit.ly/Lm4qJ0][Microsoft]] lost an [[http://bit.ly/Lm5BIv][antitrust]] [[http://1.usa.gov/Lm5LQ7][suit in the US]]. Like the European antitrust suit, this focused on how Microsoft was using its dominance of desktop computers to force its web browser, Internet Explorer, on its customers.
+
+***** 2008                                                                  :microsoft:legal:browser:mobile:internet:
+Microsoft loses an antitrust suit in Europe. Like the American antitrust suit, this focused on how Microsoft was using its dominance of desktop computers to force its web browser, Internet Explorer, on its customers. Concidentally, earlier this week Microsoft [[http://1.usa.gov/Lm5LQ7][exhausted its appeals]] and will have to pay the billion dollar fine from the European suit.
+
+***** Present Day                                                           :microsoft:home:
+[[http://bit.ly/N4jLQT][Microsoft TV]] is AWOL.
+
+*** Apple Emerges
+***** 2004 October                                                          :apple:mobile:internet:
+Apple launches the [[http://bit.ly/N4jqxt][first color iPod]].
+
 ***** 2005 September                                                        :apple:mobile:
 Apple launches its first [[http://bit.ly/N4jsp4][iPod Touch]] and the world will never be the same.
+
+***** 2007 January                                                          :apple:home:
+Apple launches [[http://bit.ly/N4jGN3][Apple TV]].
 
 ***** 2007 June                                                             :apple:mobile:internet:
 The [[http://bit.ly/N4jCwS][original iPhone]] is launched.
@@ -41,13 +58,148 @@ The [[http://bit.ly/N4jCwS][original iPhone]] is launched.
 ***** 2004 August                                                           :google:biz:internet:
 [[http://bit.ly/r1GLJZ][Google]] had its now famous [[http://en.wikipedia.org/wiki/IPO][IPO]].
 
-***** 2004 October                                                          :apple:mobile:internet:
-Apple launches the [[http://bit.ly/N4jqxt][first color iPod]].
+***** 2010 April                                                            :apple:mobile:internet:
+Apple releases [[http://bit.ly/LFrdO4][iPad]].
 
-***** 2007, 2008                                                            :browser:legal:mobile:internet:
-[[http://bit.ly/Lm4qJ0][Microsoft]] lost an [[http://bit.ly/Lm5BIv][antitrust]] [[http://1.usa.gov/Lm5LQ7][suit in the US]]. They lost a similar suit in Europe in 2008. The antitrust suits focused on how Microsoft was using its dominance of desktop computers to force its web browser, Internet Explorer, on its customers. Earlier this week, Microsoft [[http://1.usa.gov/Lm5LQ7][exhausted its appeals]] and will have to pay the billion dollar fine from the European suit.
 
-***** 2008 September                                                        :apple:google:microsoft:mozilla:biz:browser:internet:
+*** Social Websites Rise
+***** 2006 July                                                             :twitter:news:politics:biz:
+[[http://bit.ly/JvoqLE][Twitter was born]]. Since then Twitter, accurately or not, [[http://bit.ly/KILl28][has been credited]] for major political changes such as the so-called [[http://bit.ly/LmdKMY][Arab Spring]]. Currently, Twitter is being used by the [[http://bit.ly/NeBh0R][Colorado Springs]] Fire Department to provide residents timely updates of the [[http://bit.ly/NeBa5b][large fires]] in the area. At the time of writing this, [[http://bit.ly/NeBMI8][@CSFDPIO]] has 3,700 followers and 16 tweets in less than 2 hours.
+
+***** 2012 Mid-May                                                          :twitter:social:biz:
+Facebook's frequently, [[http://buswk.co/NeCoO7][maligned by the press]] IPO has seen the company's market capitalization drop by [[http://onforb.es/NeDKs6][$21 billion]] from its initial market capitalization of over $90 billion dollars. While doubtlessly upsetting for investors, Facebook is still worth about $70 billion dollars.
+
+*** Internet Everywhere
+***** 2004                                                                  :internet:
+13% of the world's population have [[http://bit.ly/N4jVaR][internet access]].
+***** 2010                                                                  :internet:
+28% of the world's population have internet access.
+
+***** 2009 November                                                         :home:internet:
+[[http://bit.ly/N4jVaR][94% of people living in the US]] have [[http://bit.ly/N4kaTr][broadband internet access]] at home. 99% of people in the US have broadband internet access at work.
+
+#+BEGIN_HTML
+<p><a href="http://www.webhostingbuzz.com/blog/2011/03/28/history-of-internet-usage/"><img src="http://www.webhostingbuzz.com/blog/wp-content/uploads/2011/03/InternetUse.jpg" border="0" alt="From Horseback To Bullet Train: The History Of Internet Usage And Speeds" /></a></p>
+<p>Infographic: <a href="http://www.webhostingbuzz.com/blog/2011/03/28/history-of-internet-usage/">From Horseback To Bullet Train: The History Of Internet Usage And Speeds</a> by <a href="http://www.webhostingbuzz.com/">WebHostingBuzz</a></p>
+#+END_HTML
+
+
+*** Google: The Company With The Mispelled Name
+***** 2004 April                                                            :google:biz:cloud:internet:
+[[http://bit.ly/M1dcPX][Gmail is launched]].
+
+***** 2012 June                                                             :google:biz:cloud:internet:
+Gmail has [[http://www.theverge.com/2012/6/28/3123643/gmail-425-million-total-users][425 million]] users.
+
+***** 2010 October                                                          :home:google:
+Google launches [[http://bit.ly/N4jHAH][Google TV]].
+
+***** 2008 September                                                            :google:android:mobile:internet:
+Google's first release of [[http://bit.ly/M1d2Ir][Android]].
+
+
+*** Free and Open Source Software
+***** 2008                                                                  :linux:enterprise:
+Linux usage rose [[http://cnet.co/N4kAJf][2.2% from 2007]].
+
+***** 2012                                                                  :linux:enterprise:
+Linux growth by enterprises is expected to [[http://bit.ly/N4kKAp][grow 85%]] in one year.
+[[http://www.linuxfoundation.org/sites/main/files/lf_lat2012_infogfx_sm.png]] 
+
+***** 2010 October                                                          :linux:enterprise:
+[[http://bit.ly/N4kSA1][70% of new enterprise Linux]] users say Linux is their "primary platform". Most new Linux adoptions are coming from Windows.
+
+
+*** The Cloud
+***** 2008                                                                  :mozilla:cloud:
+[[http://bit.ly/N4ljdJ][Eucalyptus]] became [[http://bit.ly/N4liWX][the first]] open-source, AWS API-compatible platform for deploying private clouds
+
+***** 2008                                                                  :rs:cloud:
+[[http://bit.ly/Lb8sIC][Rackspace is founded]].
+
+***** 2011                                                                  :rs:cloud:
+Rackspace has [[http://bit.ly/Lb8sIC][$1 billion annual revenue]].
+
+***** 2012                                                                  :rs:cloud:
+Rackspace has [[http://yhoo.it/Lb9apj][$6 billion market cap]].
+
+***** 2012 June                                                             :rs:google:amazon:cloud:internet:
+Google, concerned about AWS and Rackspace's growing market share in IAAS, [[http://bit.ly/Lb9jcn][responds]] by introducing the [[http://bit.ly/Lb9yV0][Google Compute Engine]].
+
+***** 2010 February                                                         :microsoft:cloud:internet:
+Microsoft launches [[http://en.wikipedia.org/wiki/Azure_Services_Platform][Windows Azure]].
+
+*** Software
+***** 2004
+[[http://bit.ly/MBvd7S][Ruby on Rails]] initial release.
+
+***** 2012 July
+[[http://bit.ly/MBwwnh][Top development frameworks]]. Note that I have modified the source data in an attempt to make it more useful and relevant for this presentation. For example, I combined the usage statistics for "ASP.NET" and "ASP.NET Ajax". I have also removed items such as "Subversion" which are tools rather than frameworks.
+
+|----------------------------------+------------|
+| Name                             | Sites      |
+|----------------------------------+------------|
+| PHP                              | 25,383,562 |
+| ASP.NET                          | 19,404,004 |
+| Perl                             | 1,386,119  |
+| Python                           | 617,271    |
+| J2EE                             | 635,857    |
+| Ruby On Rails                    | 231,508    |
+| Adobe ColdFusion                 | 189,549    |
+|----------------------------------+------------|
+
+***** 2012 July
+http://trends.builtwith.com/Web-Server
+#+BEGIN_HTML
+
+<svg height="350" width="600" version="1.1" xmlns="http://www.w3.org/2000/svg"><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L368.518125,180.09A140,140,0,0,0,368.578125,176Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L368.329125,184.35A140,140,0,0,0,368.518125,180.09Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L367.882125,189.941A140,140,0,0,0,368.329125,184.35Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L366.91112499999997,197.541A140,140,0,0,0,367.882125,189.941Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L364.611125,209.091A140,140,0,0,0,366.911125,197.541Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L343.169125,256.429A140,140,0,0,0,364.611125,209.09099999999998Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.57812499999997,175.99999999999994L288.89512499999995,302.3399999999999A140,140,0,0,0,343.16912499999995,256.4289999999999Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.57812500000003,176L199.29012500000002,312.902A140,140,0,0,0,288.895125,302.34Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.578125,176L90.36012500000001,198.269A140,140,0,0,0,199.29012500000002,312.902Z" stroke="#cccccc" fill="none"></path><path opacity="0.9" stroke-width="1" style="stroke-width: 1; opacity: 0.9;" d="M228.5781249999999,176.00000000000006L368.5781249999999,176.00000000000006A140,140,0,1,0,90.36012499999987,198.26900000000006Z" stroke="#cccccc" fill="none"></path><rect stroke="none" fill="none" ry="0" rx="0" r="0" height="138" width="138.84375" y="106" x="458.15625"></rect><desc>Created with Raphaël</desc><defs><linearGradient y2="0" x2="0" y1="1.2246467991473532e-16" x1="1" id="r-549cc9cdb8d441f385ce344cc4713717"><stop stop-color="#ff0f03" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#d40a00" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-eecb612063d046d28706538883d1b215"><stop stop-color="#ff6600" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#ff7519" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-5ed3dadc5331463689c0db1c7ef06736"><stop stop-color="#ff9e01" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#ffb135" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-d92b7a3cc86c45918c6be4f69b7850ff"><stop stop-color="#fcd202" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#ffd71d" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-9169544f36464d00824725fb45a44daa"><stop stop-color="#f8ff01" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#f8ff27" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-028dfa8c32b34b0880b13658509dff6f"><stop stop-color="#bdf00a" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#b0de09" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-4827dd4d3492469fb02a9ea3b4bec616"><stop stop-color="#04d215" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#06e015" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-21bb8fce83d849498b4fbe87e958760c"><stop stop-color="#0d8ecf" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#119de5" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-f7108c09e28e4fb390f8284b47be9e1a"><stop stop-color="#0d52d1" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#0e5ee2" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-f0093992e88645758d065f340b22a3d3"><stop stop-color="#2a0cd0" offset="0%"></stop><stop stop-opacity="0.9" stop-color="#320fe1" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="0" y1="1.2246467991473532e-16" x1="1" id="r-008f2d0dd07741ad882b7779e197d094"><stop stop-color="#ff0f03" offset="0%"></stop><stop stop-color="#d40a00" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-dab342dd289347859ea25018aee7e7bb"><stop stop-color="#ff6600" offset="0%"></stop><stop stop-color="#ff7519" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-e1edce834f3a4bb4adaacb25577e6d49"><stop stop-color="#ff9e01" offset="0%"></stop><stop stop-color="#ffb135" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-e1662e499a4e4f22836c3b784ea7a0b5"><stop stop-color="#fcd202" offset="0%"></stop><stop stop-color="#ffd71d" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-e0b2183514dc49aa820cb94ea0af192d"><stop stop-color="#f8ff01" offset="0%"></stop><stop stop-color="#f8ff27" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-999e3fbbd2c740a88a0296454f5a6194"><stop stop-color="#bdf00a" offset="0%"></stop><stop stop-color="#b0de09" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-0177ac1db9584318811a3af6869e6590"><stop stop-color="#04d215" offset="0%"></stop><stop stop-color="#06e015" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-169bf792ba5040d788b34d137c1192f6"><stop stop-color="#0d8ecf" offset="0%"></stop><stop stop-color="#119de5" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-d37a7b6d2fb644e8b644a06daa8ba61a"><stop stop-color="#0d52d1" offset="0%"></stop><stop stop-color="#0e5ee2" offset="100%"></stop></linearGradient><linearGradient y2="0" x2="6.123233995736766e-17" y1="1" x1="0" id="r-b2b2993d5f5e4b229dc5bcd76f0ba411"><stop stop-color="#2a0cd0" offset="0%"></stop><stop stop-color="#320fe1" offset="100%"></stop></linearGradient></defs><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#ff0f03" fill="url(#r-549cc9cdb8d441f385ce344cc4713717)" ry="0" rx="0" r="0" height="10" width="22" y="111.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#ff6905" fill="url(#r-eecb612063d046d28706538883d1b215)" ry="0" rx="0" r="0" height="10" width="22" y="128.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#ffc365" fill="url(#r-5ed3dadc5331463689c0db1c7ef06736)" ry="0" rx="0" r="0" height="10" width="22" y="145.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#ffdb35" fill="url(#r-d92b7a3cc86c45918c6be4f69b7850ff)" ry="0" rx="0" r="0" height="10" width="22" y="162.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#f9ff49" fill="url(#r-9169544f36464d00824725fb45a44daa)" ry="0" rx="0" r="0" height="10" width="22" y="179.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#c1f60a" fill="url(#r-028dfa8c32b34b0880b13658509dff6f)" ry="0" rx="0" r="0" height="10" width="22" y="196.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#0dd51b" fill="url(#r-4827dd4d3492469fb02a9ea3b4bec616)" ry="0" rx="0" r="0" height="10" width="22" y="213.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#1695d6" fill="url(#r-21bb8fce83d849498b4fbe87e958760c)" ry="0" rx="0" r="0" height="10" width="22" y="230.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#125dda" fill="url(#r-f7108c09e28e4fb390f8284b47be9e1a)" ry="0" rx="0" r="0" height="10" width="22" y="247.5" x="462.15625"></rect><rect stroke-width="1" stroke-opacity="0.9" style="opacity: 1; fill-opacity: 1; stroke-width: 1;" fill-opacity="1" opacity="1" stroke="#3313d3" fill="url(#r-f0093992e88645758d065f340b22a3d3)" ry="0" rx="0" r="0" height="10" width="22" y="264.5" x="462.15625"></rect><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="120" x="505.3359375"><tspan>Apache</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="137" x="493.390625"><tspan>IIS</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="154" x="497.984375"><tspan>IIS 6</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="171" x="497.984375"><tspan>IIS 7</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="188" x="499.8125"><tspan>nginx</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="205" x="539.578125"><tspan>Apache Traffic Server</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="222" x="504.8984375"><tspan>Varnish</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="239" x="511.453125"><tspan>LiteSpeed</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="256" x="503.171875"><tspan>BIG-IP</tspan></text><text font-size="11px" fill="#3a3a3a" stroke="none" font="10px &quot;Arial&quot;" style="text-anchor: middle; font: 11px &quot;Arial&quot;;" text-anchor="middle" y="273" x="497.984375"><tspan>IIS 5</tspan></text><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.57812499999991,175.00000000000006L367.5781249999999,175.00000000000006A140,140,0,1,0,89.36012499999987,197.26900000000006Z" stroke="#ff0f03" fill="url(#r-008f2d0dd07741ad882b7779e197d094)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L89.36049683527978,197.268526321226A140,140,0,0,0,198.28990720803637,311.9021559310536Z" stroke="#ff6905" fill="url(#r-dab342dd289347859ea25018aee7e7bb)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.57812500000003,175L198.29012500000002,311.902A140,140,0,0,0,287.895125,301.34Z" stroke="#ffc365" fill="url(#r-e1edce834f3a4bb4adaacb25577e6d49)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.57812499999997,174.99999999999994L287.89512499999995,301.3399999999999A140,140,0,0,0,342.16912499999995,255.42899999999992Z" stroke="#ffdb35" fill="url(#r-e1662e499a4e4f22836c3b784ea7a0b5)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L342.16926578806095,255.42928852657343A140,140,0,0,0,363.61108717897116,208.0912858742992Z" stroke="#f9ff49" fill="url(#r-e0b2183514dc49aa820cb94ea0af192d)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L363.61108717897116,208.0912858742992A140,140,0,0,0,365.9109434019431,196.54138697890704Z" stroke="#c1f60a" fill="url(#r-999e3fbbd2c740a88a0296454f5a6194)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L365.9109434019431,196.54138697890704A140,140,0,0,0,366.88231414414105,188.94069176523809Z" stroke="#0dd51b" fill="url(#r-0177ac1db9584318811a3af6869e6590)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L366.88231414414105,188.94069176523809A140,140,0,0,0,367.32891140054863,183.34971259554646Z" stroke="#1695d6" fill="url(#r-169bf792ba5040d788b34d137c1192f6)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L367.32891140054863,183.34971259554646A140,140,0,0,0,367.51835870937,179.09035320808766Z" stroke="#125dda" fill="url(#r-d37a7b6d2fb644e8b644a06daa8ba61a)"></path><path class="wijchart-canvas-object" fill-opacity="1" stroke-width="1.5" opacity="1" style="opacity: 1; stroke-width: 1.5; fill-opacity: 1;" d="M227.578125,175L367.51835870937,179.09035320808766A140,140,0,0,0,367.578125,175.00000000000017Z" stroke="#3313d3" fill="url(#r-b2b2993d5f5e4b229dc5bcd76f0ba411)"></path></svg>
+#+END_HTML
+
+*** Social Coding Sky Rockets
+***** 2008 April
+[[http://bit.ly/LJCT6Q][Github]] is launched.
+
+***** 2009 January
+Github gains 17,000 unique public repositories in one month.
+
+***** 2009 February
+Github has 46,00 unique public repositories.
+
+
+***** 2009 July
+Github breaks the 100,000 users mark with 90,000 unique public repositories. 
+
+***** 2009 July
+Counting forks, Github has 135,000 repositories.
+
+***** 2011 September
+Github breaks 1,000,000 users.
+
+
+*** Misc
+***** 2012 June 30                                                          :RIM:oracle:facebook:google:microsoft:mozilla:biz:
+A non-scientific sampling of the market capitalization of high-tech companies:
+|------------------+--------------|
+| Facebook         | $70 billion  |
+| Hewlett Packard  | [[http://yhoo.it/NeFUYB][$37 billion]]  |
+| Microsoft        | [[http://yhoo.it/NeGhT4][$257 billion]] |
+| Oracle^[1]       | [[http://yhoo.it/NeGCVU][$145 billion]] |
+| RIM (Blackberry) | [[http://yhoo.it/N4j8H1][$3.9 billion]] |
+| Apple            | [[http://yhoo.it/N4jayx][$546 billion]] |
+|                  |              |
+
+^[1] Due to recent acquisitions, Oracle is more accurately described as Oracle + Sun Microsystems + BEA Systems.
+
+FB & Google IPO http://www.forbes.com/sites/darcytravlos/2012/05/16/facebook-and-the-google-ipo/
+
+[[http://on.mash.to/KIJFpj][iphone change world]]
+
+
+I thought about splitting the list into two lists: a /before/ and an /after/ list. But that implies that whatever changes have been happening are done. I certainly don't see signs of that.
+
+
+
+***** 2008 September                                                            :apple:google:microsoft:mozilla:biz:browser:internet:
 While calculating [[http://bit.ly/KItM20][web browser]] [[http://en.wikipedia.org/wiki/Market_share][market share]] is far from an exact science (see [[http://bit.ly/Lm8okW][Browser usage reports: Lies, damn lies, and statistics]]), the Wikipedia's article on the [[http://bit.ly/Lm8yIR][market share of browsers]] has numerous, frequently contradictory, statistics. Based on the statistics of [[http://bit.ly/Lm8Yz1][StatCounter]], the browser market share was:
 
      |-------------------+-----|
@@ -79,103 +231,33 @@ Browser market share is now:
 
   While the market share of those browsers is unclear, it is certain that Internet Explorer, the browser with two thirds of the marketplace in 2008, will lose market share as Windows 7 Mobile has very little [[http://bit.ly/NeyuET][market penetration]].
 
-***** 2006 July                                                             :twitter:news:politics:biz:
-[[http://bit.ly/JvoqLE][Twitter was born]]. Since then Twitter, accurately or not, [[http://bit.ly/KILl28][has been credited]] for major political changes such as the so-called [[http://bit.ly/LmdKMY][Arab Spring]]. Currently, Twitter is being used by the [[http://bit.ly/NeBh0R][Colorado Springs]] Fire Department to provide residents timely updates of the [[http://bit.ly/NeBa5b][large fires]] in the area. At the time of writing this, [[http://bit.ly/NeBMI8][@CSFDPIO]] has 3,700 followers and 16 tweets in less than 2 hours.
+*** Publications
+***** 2012 July 1
+Top 10 blogs and their major areas of influence per [[http://bit.ly/MBtWO8][Technorati]]:
+- [[http://huff.to/MBsjQC][Huffington Post]]: Entertainment, Living, Politics, US Politics
+- [[http://bit.ly/MBslId][Buzzfeed]]: Entertainment, Living, Politics, Celebrity
+- [[http://on.mash.to/MBssmV][Mashable]]: Entertainment, Gadgets Technology
+- [[http://vrge.co/MBsqvp][The Verge]]: Technology, Gadgets, Gaming, IT
+- [[http://engt.co/MBsxaa][Engadget]]: Technology, Gadgets, IT
+- [[http://read.bi/qjeBds][Business Insider]]: Business, Politics, US Politics, Sports, Technology
+- [[http://bit.ly/MBsz1S][TMZ]]: Entertainment, Celebrity, Politics
+- [[http://bit.ly/LLBfhZ][Gizmodo]]: Technology, Gadgets
+- [[http://tcrn.ch/MBsAmt][TechCrunch]]: Business, IT, Technology, Gadgets
+- [[http://www.thedailybeast.com][The Daily Beast]]: Politics, World, US Politics
+- [[http://bit.ly/MBsGdN][Ars Technica]]: Entertainment, Science, Gadgets, Technology, IT, Gaming
 
-***** 2012 Mid-May                                                          :twitter:social:biz:
-Facebook's frequently, [[http://buswk.co/NeCoO7][maligned by the press]] IPO has seen the company's market capitalization drop by [[http://onforb.es/NeDKs6][$21 billion]] from its initial market capitalization of over $90 billion dollars. While doubtlessly upsetting for investors, Facebook is still worth about $70 billion dollars.
-
-***** 2012 June 30                                                          :RIM:oracle:facebook:google:microsoft:mozilla:biz:
-A non-scientific sampling of the market capitalization of high-tech companies:
-|------------------+--------------|
-| Facebook         | $70 billion  |
-| Hewlett Packard  | [[http://yhoo.it/NeFUYB][$37 billion]]  |
-| Microsoft        | [[http://yhoo.it/NeGhT4][$257 billion]] |
-| Oracle^[1]       | [[http://yhoo.it/NeGCVU][$145 billion]] |
-| RIM (Blackberry) | [[http://yhoo.it/N4j8H1][$3.9 billion]] |
-| Apple            | [[http://yhoo.it/N4jayx][$546 billion]] |
-|                  |              |
-
-^[1] Due to recent acquisitions, Oracle is more accurately described as Oracle + Sun Microsystems + BEA Systems.
-
-FB & Google IPO http://www.forbes.com/sites/darcytravlos/2012/05/16/facebook-and-the-google-ipo/
-
-[[http://on.mash.to/KIJFpj][iphone change world]]
-
-
-I thought about splitting the list into two lists: a /before/ and an /after/ list. But that implies that whatever changes have been happening are done. I certainly don't see signs of that.
-
-***** 2010 October                                                          :home:google:
-Google launches [[http://bit.ly/N4jHAH][Google TV]].
-
-***** Present Day                                                           :microsoft:home:
-[[http://bit.ly/N4jLQT][Microsoft TV]] is AWOL.
-
-***** 2007 January                                                          :apple:home:
-Apple launches [[http://bit.ly/N4jGN3][Apple TV]].
-
-***** 2004                                                                  :internet:
-13% of the world's population have [[http://bit.ly/N4jVaR][internet access]].
-
-***** 2010                                                                  :internet:
-28% of the world's population have internet access.
-
-***** 2009 November                                                         :home:internet:
-[[http://bit.ly/N4jVaR][94% of people living in the US]] have [[http://bit.ly/N4kaTr][broadband internet access]] at home. 99% of people in the US have broadband internet access at work.
-
-#+BEGIN_HTML
-<p><a href="http://www.webhostingbuzz.com/blog/2011/03/28/history-of-internet-usage/"><img src="http://www.webhostingbuzz.com/blog/wp-content/uploads/2011/03/InternetUse.jpg" border="0" alt="From Horseback To Bullet Train: The History Of Internet Usage And Speeds" /></a></p>
-<p>Infographic: <a href="http://www.webhostingbuzz.com/blog/2011/03/28/history-of-internet-usage/">From Horseback To Bullet Train: The History Of Internet Usage And Speeds</a> by <a href="http://www.webhostingbuzz.com/">WebHostingBuzz</a></p>
-#+END_HTML
-
-***** 2004 April                                                            :google:biz:cloud:internet:
-[[http://bit.ly/M1dcPX][Gmail is launched]].
-
-***** 2012 June                                                             :google:biz:cloud:internet:
-Gmail has [[http://www.theverge.com/2012/6/28/3123643/gmail-425-million-total-users][425 million]] users.
-
-***** 2008                                                                  :linux:enterprise:
-Linux usage rose [[http://cnet.co/N4kAJf][2.2% from 2007]].
-
-***** 2012                                                                  :linux:enterprise:
-Linux growth by enterprises is expected to [[http://bit.ly/N4kKAp][grow 85%]] in one year.
-[[http://www.linuxfoundation.org/sites/main/files/lf_lat2012_infogfx_sm.png]] 
-
-***** 2010 October                                                          :linux:enterprise:
-[[http://bit.ly/N4kSA1][70% of new enterprise Linux]] users say Linux is their "primary platform". Most new Linux adoptions are coming from Windows.
-
-***** 2008                                                                  :mozilla:cloud:
-[[http://bit.ly/N4ljdJ][Eucalyptus]] became [[http://bit.ly/N4liWX][the first]] open-source, AWS API-compatible platform for deploying private clouds
-
-***** 2008                                                                  :rh:cloud:
-[[http://bit.ly/Lb8sIC][Rackspace is founded]].
-
-***** 2011                                                                  :rh:cloud:
-Rackspace has [[http://bit.ly/Lb8sIC][$1 billion annual revenue]].
-
-***** 2012                                                                  :rh:cloud:
-Rackspace has [[http://yhoo.it/Lb9apj][$6 billion market cap]].
-
-***** 2012 June                                                             :rh:google:amazon:cloud:internet:
-Google, concerned about AWS and Rackspace's growing market share, [[http://bit.ly/Lb9jcn][responds]] by introducing the [[http://bit.ly/Lb9yV0][Google Compute Engine]].
-
-***** 2010 April                                                            :apple:mobile:internet:
-Apple releases [[http://bit.ly/LFrdO4][iPad]].
-
-***** 2007 June                                                             :apple:mobile:internet:
-Apple releases [[http://bit.ly/LFrkcE][iPhone]].
-
-***** 2008 September                                                        :google:android:mobile:internet:
-Google's first release of [[http://bit.ly/M1d2Ir][Android]].
-
-***** 2006 August                                                           :amazon:cloud:internet:
-Initial release of [[http://bit.ly/LFsx3H][Amazon EC2]].
-
-***** 2008 August                                                           :amazon:cloud:internet:
-Initial release of [[http://bit.ly/LFsHYH][Amazon Elastic Block Store]].
-
-***** 2010 February                                                         :microsoft:cloud:internet:
-Microsoft launches [[http://en.wikipedia.org/wiki/Azure_Services_Platform][Windows Azure]].
+***** July 2012
+Top 10 websites and their founding dates:
+- [[http://bit.ly/Kk80BT][Google]]: 
+- [[http://facebook][Facebook]]: 
+- [[http://bit.ly/MBuOCl][YouTube]]: 
+- [[http://yhoo.it/MBuPGz][Yahoo!]]: 
+- [[http://bit.ly/MBuRy4][Baidu.com]]: 
+- [[http://bit.ly/MBuVhl][Wikipedia]]: 
+- [[http://bit.ly/MBuWBR][Windows Live]]: 
+- [[http://bit.ly/MBv5Fj][QQ.COM]]: 
+- [[http://bit.ly/Jvotaj][Twitter]]:
+- [[http://amzn.to/MBv7Ns][Amazon.com]]: 
 
 * Misc
 #+BEGIN_HTML
@@ -189,7 +271,28 @@ Microsoft launches [[http://en.wikipedia.org/wiki/Azure_Services_Platform][Windo
 
 javascript:location.href='org://c://h/'+encodeURIComponent(location.href)+'/'+encodeURIComponent(document.title)+'/'+encodeURIComponent(window.getSelection())
 
+
+ (org-publish-project-alist-append
+ "tech-history"
+       :base-directory        "~/octopress/mydata/posts/companies"
+       :base-extension        "org"
+       :body-only             t
+       :convert-org-links     t
+       :creator-info          nil
+       :exclude               ".*\\(ATTIC\\|private\\|~\\|.@\\).*"
+       :headline-levels       4
+       :html-extension        "html"
+       :octopress             t
+       :publishing-directory  "~/octopress/mydata/posts/companies"
+       :sub-superscript       t
+       :table-of-contents     t
+       :auto-index            t 
+       :auto-sitemap          t 
+       :makeindex             t 
+      )
+
 -->
 #+END_HTML
 
 # LocalWords:  Changin
+

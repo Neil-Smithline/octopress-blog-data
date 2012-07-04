@@ -1,0 +1,37 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title1:         "Yahoo! Forgets To Proofread Emails?"
+date:           2012-07-01 21:33
+comments:       true
+categories:     [companies, yahoo, litigious-trio ]
+published:      true
+topic_title:    'Yahoo!'
+topic_search:   'yahoo'
+---
+
+#+END_HTML
+
+* Yahoo! Notification
+[[http://yhoo.it/Lr5viI][Yahoo! Groups]] is [[http://yhoo.it/Lr5mfc][Yahoo!]]'s version of public groups or forums. I used to think that it was one of the better group sites so I tended to use it. Over time I thought that it fell behind the pack and I stopped using it. I never deleted any of my groups. They had no confidential data and they were ocassionally handy to have around for historical purposes.
+
+On June 29 I received an email from [[http://yhoo.it/Lr5mfc][Yahoo!]] informing me that they are shutting down some of their group features. 
+
+* Is There A Proofreader In The House?
+I frequently notice errors in emails I get but I know that I frequently send emails with errors in them. Most emails are just not worth the trouble of iterating on until it is perfect. But I typically expect large companies to send professional looking emails. The email Yahoo! sent me was anything but professional.
+
+Rather than list the problems, I think looking at my annotations of their email is simpler:
+
+[[http://www.neilsmithline.com/assets/images/YahooGroupsClosing.png]]
+
+* 5 Days -- You Gotta' Be Kidding
+#+HTML: <!-- more -->
+Ignoring the formatting mistakes, Yahoo! gave me only five days to backup my data before the service was to be shutdown and all data erased. Five days? If you don't count the weekend and the July 4 US holiday, then they gave me two days to get my data.
+
+Furthermore, while they state that I should backup my data, they don't provide any directions or pointers telling me how to do such. 
+
+* Conclusion
+This was one email regarding one of the ?hundreds? of services Yahoo! offers. As such, I don't want to make broad generalizations about Yahoo! based on this email. That said, for several years I have been concerned with relying too much on Yahoo! services because I feel the company is not doing well. In particular, I have avoided any serious use of [[http://bit.ly/Lr7of6][Yahoo! Pipes]], a tool that allows you to quickly create implement and deploy data processing services.
+
+Being that Yahoo! seems to feel that five days is enough warning to shut down a service, I'll now be extra certain not to use Yahoo! for anything that I care about losing. This just reinforces my decision to only use /Yahoo! Pipes/ for quick prototyping. It is a shame because /Yahoo! Pipes/ are a wonderful tool.b

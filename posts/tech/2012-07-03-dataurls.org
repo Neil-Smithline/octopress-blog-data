@@ -1,0 +1,91 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title1:         "Data URIs For Images"
+date:           2012-07-03 16:54
+comments:       true
+categories:     [tech,webapps]
+published:      false
+topic_title:    ''
+topic_search:   ''
+---
+
+#+END_HTML
+
+* Data URIs
+If you write web code and don't know about [[http://bit.ly/KYNdbU][data URIs]], you are likely missing out on a useful piece of standard web technology. Data URIs are an [[http://www.ietf.org/IETF][IETF]] [[http://bit.ly/KYN6gs][standard]] that allows the embedding of binary data into HTML markup. While there are multiple ways they can be used, I find them most useful for small images.
+
+When used appropriately, data URIs allow you to put images in a web page or an HTML email and be confident that they will be displayed. This includes displaying the image when:
+- it is being viewed in a browser where the user has disabled the loading of images.
+- it is viewed in an email, independent of any image settings in the email client.
+- the web page has been saved as a single HTML file and is later viewed when the computer is not connected to the internet.
+
+My primary use of data URIs is in my [[{{ site.url }}/assets/html/signature-with-data-uris.html][email signature]]. The images in my signature are always displayed. Even when my signature is forwarded to someone else, the images are displayed.
+
+* Images Without The Network
+While little care is needed when producing text for HTML documents, adding the images frequently requires more thought. Some of the more common problems are:
+- Performance problems: Each image in an HTML document requires a separate connection from your browser to a web server. As creating connections is time consuming, images can slow down the web browser and the web server.[1] 
+- Security and Privacy problems: It is hard to imagine that any email user hasn't seen a warning about emails with images at least once. The security and privacy concerns are a bit on the complex side and definitely too long to include in an article about data URIs. If you are interested, you can read about some of the [[http://bit.ly/KYQ7gM][security problems]] and some of the [[http://bit.ly/KYS0Kc][privacy concerns]] on your own.
+- The infamous broken image link: This is typically what breaks images in email signatures. The image is frequently displayed with a broken link image such as:
+#+BEGIN_CENTER
+  [[http://2.bp.blogspot.com/_6n2qeGZ5fCc/TBIpcIA53GI/AAAAAAAAAO4/c9btzXsSi-Q/s400/404.jpg]]
+#+END_CENTER
+#+HTML: <!-- more -->
+
+* Using Data URIs
+I'm not going to describe the algorithm for creating data URIs, only how to use them. You can read the[[http://bit.ly/KYNdbU][Wikipedia's page]] on data URIs if you want to do more than know how to use data URIs.
+
+As I mentioned, I am particularly fond of data URIs for images. For example, the typical way to display an image in an HTML document is with HTML that resembles:
+#+BEGIN_EXAMPLE
+<img height="16" width="16" alt="S" src="http://www.neilsmithline.com/favicon.png"/>
+#+END_EXAMPLE
+In an HTML page, this appears as: [[http://www.neilsmithline.com/favicon.png]]
+
+To convert the =favicon.png= image into a data URI, you need to save a copy of it to your local drive. Once you have done that, go to the (appropriately named) page: http://dataurl.net/#dataurlmaker and follow the instructions for uploading the image to the page. 
+
+[[http://bit.ly/O23Foc][Don't Panic]]. The results look ugly but they are easy to use.
+
+Copy the entire contents of the data URI box from the browser and replace the /src/ URL with the data URI. For the above example of the "S" [[http://bit.ly/MUyUU7][keycap]], the HTML looks like:
+#+BEGIN_EXAMPLE
+<img height="16" width="16" alt="S" 
+     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAA
+    f8/9hAAACvklEQVQ4jU2STWiUVxSGn3Pu/Zy/xomtVRFLVagR1HFjNkl0I4rutLvuum
+    kLRlJEBNNFQajbKhUr2rpyU5cKQruLERGjY7BKEMEUtCkmM0YziWMm8917uvgyrRcud
+    3G453nPe15p9vZ+snDy2A+pSXmxq/hhe9P6MoC9qqVEU/2gy6xY9Dr/NqjkVsRoqs9f
+    TH189vyprpGRW/Ls4d17rCztajYXMBNUPGZGCJHJyUm892zc+CnOK2YpIQQmn71gVXl
+    da/uvl7/wi0myQVptMI9TIUlWUK2O893w9/T0fEYIgSdPnvLb1St0ryojoqStRerT/+
+    Re79v7pRcBAZxzmBkAZ378ieHhE+ze0w9Aq7VEknicOmKIYEaMgZgrrPZmlogIIgKSF
+    UII/D01haoh4igWC1m9c4QMJqAdqoigIojA0NARfj5/kYH+fRwdPMbt23cQEZxzJEny
+    Xx+ziBqkHQWiiojQ19/HzdHfufTLOXbs2M63Q8epVsdJkgTvPRgYYDHi4X1luqwGcrk
+    ilcpOKpWdvJmb497YfQYG+nDOAYaZYYAK2Ty6TFdVrl+/wezsLACNRoMH1XF6tm5Z/v
+    w/HYv4GCOqHXJmVL1W5+uvBmk05ikU8hz+/BAHD+zHGUjmHQAhisqfj8ZeOufX5vN5z
+    IyOH+83VVVUBC9KCIHR0RFC6qjgxrwZ1Gs1Eu8pFUs47xAyx1U1S2UMxBBJ220mJiaY
+    rdXo/mgdZohfai/52vQ0jx89ptFoICIYhpC9McTMsOUbQmB1uZt8qRvLlUTna/WFmek
+    ZWu/eoQKCQcwCZSEigBoo4ETw6njbbDI39wZTUb/52h+Xnm7rOV0qlEjTNEtZNKJTwF
+    AD7xwgCJKtUB1r16yhgM2IQf6vCxfOvertPRBCNEEQFYsuW4lHTVFEwCzLiKdNaWH++
+    YZvBof+BUZhR/TXBVQQAAAAAElFTkSuQmCC"/>
+#+END_EXAMPLE
+
+Note that I have inserted newlines to make the example fit in my blog's theme. In your HTML code you must paste the entire data URI in a single line.
+
+While the HTML code now looks awfully messy, it produces the same output: 
+#+HTML: <img height="16" width="16" alt="S" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACvklEQVQ4jU2STWiUVxSGn3Pu/Zy/xomtVRFLVagR1HFjNkl0I4rutLvuumkLRlJEBNNFQajbKhUr2rpyU5cKQruLERGjY7BKEMEUtCkmM0YziWMm8917uvgyrRcud3G453nPe15p9vZ+snDy2A+pSXmxq/hhe9P6MoC9qqVEU/2gy6xY9Dr/NqjkVsRoqs9fTH189vyprpGRW/Ls4d17rCztajYXMBNUPGZGCJHJyUm892zc+CnOK2YpIQQmn71gVXlda/uvl7/wi0myQVptMI9TIUlWUK2O893w9/T0fEYIgSdPnvLb1St0ryojoqStRerT/+Re79v7pRcBAZxzmBkAZ378ieHhE+ze0w9Aq7VEknicOmKIYEaMgZgrrPZmlogIIgKSFUII/D01haoh4igWC1m9c4QMJqAdqoigIojA0NARfj5/kYH+fRwdPMbt23cQEZxzJEnyXx+ziBqkHQWiiojQ19/HzdHfufTLOXbs2M63Q8epVsdJkgTvPRgYYDHi4X1luqwGcrkilcpOKpWdvJmb497YfQYG+nDOAYaZYYAK2Ty6TFdVrl+/wezsLACNRoMH1XF6tm5Z/vw/HYv4GCOqHXJmVL1W5+uvBmk05ikU8hz+/BAHD+zHGUjmHQAhisqfj8ZeOufX5vN5zIyOH+83VVVUBC9KCIHR0RFC6qjgxrwZ1Gs1Eu8pFUs47xAyx1U1S2UMxBBJ220mJiaYrdXo/mgdZohfai/52vQ0jx89ptFoICIYhpC9McTMsOUbQmB1uZt8qRvLlUTna/WFmekZWu/eoQKCQcwCZSEigBoo4ETw6njbbDI39wZTUb/52h+Xnm7rOV0qlEjTNEtZNKJTwFAD7xwgCJKtUB1r16yhgM2IQf6vCxfOvertPRBCNEEQFYsuW4lHTVFEwCzLiKdNaWH++YZvBof+BUZhR/TXBVQQAAAAAElFTkSuQmCC"/>
+
+While they look the same, you can tell they are different by right-clicking on the second "S" and selecting "Copy Image Location" in Firefox or "Copy Image URL" in Chrome. Then paste the clipboard into your favorite editor and you'll see that they don't look at all the same.
+
+* Data URI Tradeoffs
+Alas, the benefits of data URIs are not free. Ironically, the main problem with data URIs is performance, one of the advantages of using data URIs.
+
+- Data URIs are always larger than the image files they are replacing. In the example of the "S" image, the size increase is minimal. The image source was 759 bytes and the data URI is 1,034 bytes. That's only an increase of 275 bytes. In all but the most unique situations, is less far less than the cost of opening up a second HTTP connection to get the image. But data URIs become infeasible on larger images. For example, the [[http://bit.ly/O29yBO][NEIL SMITHLINE keycaps]] at the top of this page is a 18KB image and a 23KB data URI. That's a sizable difference.
+- [[http://bit.ly/KZ6r0Z][Browsers cache]] image files so that they don't have to access the network as often. Data URIs are uncacheable. If I had used a data URI for the NEIL SMITHLINE keycaps image, it would have added 7KB to the first page and, if the browser caches the image, 23KB to each additional page on my site. My email signature is 28KB.
+- Avoiding multiple connections for each image is one of the reasons to use data URIs, in some cases, multiple connections are faster. One way to make multiple connections perform well is to use a [[http://bit.ly/KZ6VUR][CDN]] to host images. CDNs are designed to quickly handle multiple connections from a single client.
+
+The above tradeoffs are why data URIs for images only make sense for small images. 
+
+
+* Footnotes
+
+[1] It should be noted that the performance problem isn't really inherent to HTML. Rather, the problem stems from the [[http://bit.ly/KYPdkh][HTTP]] and [[http://bit.ly/KYPdAU][HTTPS]] network protocols. A new protocol, [[http://bit.ly/KYOAXY][SPDY]], designed by [[http://bit.ly/LUUGHN][Google]] and currently supported in [[http://bit.ly/LUUHLP][Chrome]] and [[http://bit.ly/KYPl36][Firefox]], will fix this problem. At this point in time, SPDY is not an official standard though it is being considered for standardization by the IETF as a starting point for [[http://bit.ly/KYPtQk][HTTP 2.0]].
+
+
