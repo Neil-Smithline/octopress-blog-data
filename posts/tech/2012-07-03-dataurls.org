@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "Data URIs For Images"
+title:          "Data URIs For Images"
 date:           2012-07-03 16:54
 comments:       true
 categories:     [tech,webapps]

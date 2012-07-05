@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "browser market share"
+title:          "browser market share"
 date:           2012-06-29 15:44
 comments:       true
 categories:     []

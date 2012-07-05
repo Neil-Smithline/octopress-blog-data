@@ -2,11 +2,11 @@
 
 ---
 layout:         post
-title1:         "Octopress Is Pretty Great"
+title:          "Octopress Is Pretty Great"
 date:           2012-05-26 13:32
 comments:       true
 categories:     [blogging-tech, octopress, jekyll]
-topic_search:   octopress OR Jekyll
+topic_search:   octopress OR (octopress AND Jekyll)
 topic_title:    Octopress And Jekyll
 published:      true
 ---

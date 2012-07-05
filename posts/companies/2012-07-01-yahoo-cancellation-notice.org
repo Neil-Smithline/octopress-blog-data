@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "Yahoo! Forgets To Proofread Emails?"
+title:          "Yahoo! Forgets To Proofread Emails?"
 date:           2012-07-01 21:33
 comments:       true
 categories:     [companies, yahoo, litigious-trio ]
@@ -12,6 +12,8 @@ topic_search:   'yahoo'
 ---
 
 #+END_HTML
+
+*Update: [2012-07-04 Wed]* Today [[http://en.wikipedia.org/wiki/Igoogle][iGoogle]] had a notice at the top saying tat Google was discontinuing the service in *November 2013*! The cancellation notice had this [[http://bit.ly/O5prY1][Learn more]] link. Yahoo!'s cancellation notice looks even worse when in the shadow of Google's.
 
 * Yahoo! Notification
 [[http://yhoo.it/Lr5viI][Yahoo! Groups]] is [[http://yhoo.it/Lr5mfc][Yahoo!]]'s version of public groups or forums. I used to think that it was one of the better group sites so I tended to use it. Over time I thought that it fell behind the pack and I stopped using it. I never deleted any of my groups. They had no confidential data and they were ocassionally handy to have around for historical purposes.

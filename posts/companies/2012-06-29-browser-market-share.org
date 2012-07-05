@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "Technology Market Share"
+title:          "Technology Market Share"
 date:           2012-06-29 15:49
 comments:       true
 categories:     []

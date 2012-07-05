@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "The O's Have It: Octopress And Org Mode Make It Work"
+title:          "The O's Have It: Octopress And Org Mode Make It Work"
 date:           2012-06-15 21:49
 comments:       true
 categories:     [blogging-tech,octopress,jekyll,orgmode,emacs]

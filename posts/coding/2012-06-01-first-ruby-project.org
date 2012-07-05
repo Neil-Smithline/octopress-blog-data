@@ -2,7 +2,7 @@
 
 ---
 layout:         post
-title1:         "My First Ruby Project"
+title:          "My First Ruby Project"
 date:           2012-06-01 19:18
 comments:       true
 categories:     [projects, ruby, macosx, firefox, mozilla, python, programming-languages]
