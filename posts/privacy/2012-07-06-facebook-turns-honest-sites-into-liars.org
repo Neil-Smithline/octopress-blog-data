@@ -1,0 +1,99 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+Title:          "Facebook Is A Virus"
+date:           2012-07-06 22:58
+comments:       true
+categories:     [facebook, privacy, online-freedom]
+published:      false
+topic_title:    ''
+topic_search:   ''
+---
+
+#+END_HTML
+
+* The Good
+There are good, or at least, less bad ways of tracking users across websites. While I am shocked at writing this, [[http://bit.ly/LUUGHN][Google]]'s [[http://bit.ly/NuCSSm][AdWords]] service is an example of the good way to advertise. 
+
+Google keeps track of every page that that Google users visit that has an ad served by Google's [[http://bit.ly/NuCSSm][lucrative advertising business]]. To help you understand the magnitude of this, Google's advertising revenue is its primary source of revenue bringing in [[http://bit.ly/NuCSSm][$28 billion in 2010]].
+
+The way it works is:
+- Sites want to make money selling ads. 
+- The sites talk to Google about selling ads.
+- Google gives the site the details about its AdWords advertising. These details include payment schedules, technical details about displaying ads, and the fact that Google will track users who view pages with Google ads on them.
+- The site either agrees to this or it doesn't. If the site agrees, it will update its privacy policy if needed. If it doesn't agree, it shops around for other advertisers.
+
+The entire process is open and well-documented. 
+
+I frequently use [[http://bit.ly/NuEhs2][CNN]] as an example of a typical big-business, high-volume website. Being my /go to/ site for big business, I decided to read their privacy policy. Note that I do not know if CNN uses AdWords or has any relationship with Google. I just used CNN's privacy policy as an example. CNN's privacy policy, conveniently located at [[http://www.cnn.com/privacy.html]], states:
+#+BEGIN_QUOTE
+We, our third party service providers, advertiser or our partners may also use "web beacons" or clear .gifs, or similar technologies, which are small pieces of code placed on a web page, to monitor the behavior and collect data about the visitors viewing a web page. For example, web beacons may be used to count the users who visit a web page or to deliver a cookie to the browser of a visitor viewing that page.
+#+END_QUOTE
+Perhaps that's not the most accessible language but it clearly communicates that you may be tracked by CNN, [[http://bit.ly/NuERGi][third party service providers]], or companies that advertise on CNN's website.
+
+* The Bad
+I'll keep this section short. Facebook is notorious for its confusing privacy policies and unnannounced or poorly announced changes to those policies. If you are interested, start clicking links on [[http://bit.ly/NuGRhO][this page]].
+
+* The Ugly
+Recently, Facebook announced that it started to [[http://on.mash.to/L789wg][track users via Facebook Like buttons]]. I am at a loss for words to describe how enraged this made me. It wasn't the fact that I was being tracked that bothered me. Like it or not, I know that I'm tracked. 
+
+I also understand that Facebook frequently changes their privacy policy. I can keep up with those changes or not. My choice. But Facebook's decision to track users via their Like button is unlike any other privacy change I have ever heard of. 
+
+For years Facebook has been telling websites about the benefits they get by incorporating a wide range of [[http://bit.ly/NuITyt][Facebook plugins]]. The Facebook Like button [[http://1.bp.blogspot.com/-1S19gtdJCXU/TjxsRjitE-I/AAAAAAAAAIw/OEpR4Le562I/s1600/Facebook-like-button.jpg]] is simply ubiquitous across the web. Facebook's privacy change has turned every site that has a Like button on it into a data acquisition service for Facebook's ads. I believe the technical term for this is
+
+#+BEGIN_QUOTE
+Bait And Switch
+#+END_QUOTE
+
+* The Infection
+When I read about this change to Facebook's privacy policy I immediately recognized that it could potentially affect the privacy of any site with a Like button on it. I then decided to do three things in response to Facebook's decision to suddenly, and without warning, recruit millions of sites into providing data to enable Facebook to increase their advertising revenue:
+1. I wrote [[http://bit.ly/M7Igbc][this blog posting]], describing what I thought about Facebook's new privacy policy and the way they handled the change.
+1. I created a Twitter account, [[http://bit.ly/NuKVi2][@fb_noprivacy]], just to share my anger via tweets.
+1. I started to look for sites that, through no fault of their own, were violating their own privacy policy because of Facebook started tracking users with the Like button.
+
+http://www.mediapost.com/publications/article/177877/tracking-report-google-and-facebook-rule-the-data.html
+
+http://www.mediapost.com/privacy/
+
+Privacy Policy
+MediaPost and its Affiliate websites have a firm commitment to protecting your privacy. We operate our website under the following guidelines to safeguard our users' personal information. We may revise our policy from time to time, so please check this page periodically.
+
+Personal/Company Information
+Updating or Opting Out
+Cookies
+Links to Other Sites
+Security Precautions
+Refunds/Returns
+Shipping
+
+Personal/Company Information
+To operate our services, MediaPost Communications asks for personal and company information in the member's registration form, such as your name, title, your company name, company address, and other company only identifying information. We do this, for example, when you register your company (or yourself) as a MediaPost Member on our site. We use this individual company information to deliver member only newsletters, and other service-related purposes only your company contact information is made available to other members in the member directory.
+
+MediaPost Communications may also automatically collect information such as your web browser type or IP address. This information is used to ensure our website displays properly on most commonly used browsers. This information is also used to help identify you on the service and to gather broad demographic information.
+
+Updating or Opting Out
+If you want to change or update your registration information please visit www.mediapost.com and select 'my profile' from the menu, and update your information. If you would like to opt-out as a member of MediaPost Communications, choose the 'End your MediaPost Membership' option at the bottom of your profile page and click 'Save'. You will be automatically deleted from our database. If you wish to remain a MediaPost member but still want to opt-out of all email communications from us, choose the 'No Newsletters or Email Notices' option instead. If you have any questions regarding our opt-out policies, send an email to remove@mediapost.com or call us at 212-204-2000.
+
+Cookies
+MediaPost Communications may place a "cookie" in the browser files of your computer. A cookie is a file that identifies you as a unique user. The cookie itself does not contain any individual information about you, although it will enable MediaPost Communications to relate your use of our site to information that you have specifically provided to us. We may use cookies to provide you with information, to save your password so that you do not have to re-enter it each time you visit our site, for retaining you selections between screens during a session, and for other purposes. The first time you register on to our site, you may be asked to accept a cookie. The cookie will remember your user name and password every time you access the site. You do not need to accept this cookie to use our services, but you will have to enter your name and password every time you visit the site.
+
+Links to Other Sites
+Our site contains links to other sites outside our service. These other sites may send cookies to users, collect data, or solicit individual information. These sites or services also have separate data and privacy practices. MediaPost Communications and its Affilliate websites disclaim any responsibility or liability for their policies or actions. In general, when we link to other sites, we do not pass your personal information to those sites. In addition, MediaPost Communications offers services in conjunction with partner companies. In order to provide these co-branded services to you, we may share your personal information with our partner company. If you do not want your data to be shared, you can choose not to allow the transfer by not using that particular service.
+
+Security Precautions
+We have taken careful measures to secure your information. This website has security measures in place to protect the loss, misuse and alteration of the information under our control. Our registration areas and Members' areas have SSL protection. Verisign has supplied us with a digital certificate for our website. All personal and company data referring to account applications and registration is kept in strictest confidence and security.
+
+Your individual MediaPost user information is password protected. We recommend that you do not share your password with anyone. While MediaPost Communications strives to protect your individual information, we cannot guarantee the security of any information that you transmit to MediaPost Communications and you are solely responsible for maintaining the secrecy of any passwords or other account information.
+
+MediaPost Communications will NOT disclose any personal information except as described above, as required by law or to protect our interests. MediaPost Communications does disclose user information, including demographic data, in an aggregated form that does not identify individual users in order to describe its services to prospective partners, advertisers and other third parties and for other lawful purposes.
+
+If at any time you believe that MediaPost Communications has not adhered to these principles, please notify us promptly by email to sergei@mediapost.com, or via our contact informations below.
+
+Refunds/Returns
+Refunds are not available unless otherwise stated at time of purchase.
+
+Shipping
+Shipping charges are specified at time of purchase and are the full responsiblity of the member unless otherwise stated at time of purchase.
+
+Domestic (USA only) shipping charges for the monthly print magazines are included as part of the subscription, all other products and services are stated at time of purchase. 
