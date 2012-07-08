@@ -26,7 +26,7 @@ The way it works is:
 
 The entire process is open and well-documented. 
 
-I frequently use [[http://bit.ly/NuEhs2][CNN]] as an example of a typical big-business, high-volume website. Being my /go to/ site for big business, I decided to read their privacy policy. Note that I do not know if CNN uses AdWords or has any relationship with Google. I just used CNN's privacy policy as an example. CNN's privacy policy, conveniently located at [[http://www.cnn.com/privacy.html]], states:
+I frequently use [[http://bit.ly/NuEhs2][CNN]] as a reference of a typical big-business, high-volume website. Being my /go to/ site for big business, I decided to read their privacy policy. Note that I do not know if CNN uses AdWords or has any relationship with Google. I just used CNN's privacy policy as an example. CNN's privacy policy, conveniently located at [[http://www.cnn.com/privacy.html]], states:
 #+BEGIN_QUOTE
 We, our third party service providers, advertiser or our partners may also use "web beacons" or clear .gifs, or similar technologies, which are small pieces of code placed on a web page, to monitor the behavior and collect data about the visitors viewing a web page. For example, web beacons may be used to count the users who visit a web page or to deliver a cookie to the browser of a visitor viewing that page.
 #+END_QUOTE
@@ -34,6 +34,7 @@ Perhaps that's not the most accessible language but it clearly communicates that
 
 * The Bad
 I'll keep this section short. Facebook is notorious for its confusing privacy policies and unnannounced or poorly announced changes to those policies. If you are interested, start clicking links on [[http://bit.ly/NuGRhO][this page]].
+#+HTML: <!-- more -->
 
 * The Ugly
 Recently, Facebook announced that it started to [[http://on.mash.to/L789wg][track users via Facebook Like buttons]]. I am at a loss for words to describe how enraged this made me. It wasn't the fact that I was being tracked that bothered me. Like it or not, I know that I'm tracked. 
