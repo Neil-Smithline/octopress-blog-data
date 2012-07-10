@@ -1,0 +1,28 @@
+* Code Embedding                                                                :octopress:
+- Documentation: http://bit.ly/L1Sgn1
+- Tests: http://bit.ly/L1SJph
+*** Gist                                                                      :gist:
+- Plugin: http://bit.ly/L1SLxE
+- Usage ={% gist gist_id [filename] %}=
+
+*** Using Native Code Highlighting 
+#+BEGIN_QUOTE
+```
+code goes here
+```
+#+END_QUOTE
+
+*** Inline Code Blocks
+#+BEGIN_QUOTE
+{% codeblock [title] [lang:language] [url] [link text] %}
+code snippet
+{% endcodeblock %}
+#+END_QUOTE
+
+and 
+#+BEGIN_QUOTE
+{% codeblock lang:objc %}
+[rectangle setX: 10 y: 10 width: 20 height: 20];
+{% endcodeblock %}
+#+END_QUOTE
+
