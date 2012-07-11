@@ -1,4 +1,0 @@
-
-
-#+include: "theindex.inc"
-

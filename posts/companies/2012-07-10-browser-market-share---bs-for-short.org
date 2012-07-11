@@ -1,0 +1,25 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title:          "Browser Market Share - BS For Short"
+date:           2012-07-10 17:26
+comments:       true
+categories:     []
+published:      false
+topic_title:    ''
+topic_search:   ''
+---
+
+#+END_HTML
+* Lies, Damn Lies, And Browser Market Share Statistics
+A couple of months ago there was a flurry of tweets about [[http://bit.ly/Lm8yIR][browser market share]]. I think [[http://bit.ly/Lm8okW][this article]],
+from which I shameless ripped off the "Lies..." quote, in [[http://bit.ly/MXd1X7][InfoWorld]] kicked it off. That said, browser market share statistics are similar to the [[http://bit.ly/MXeInp][cosmic background radiation]], constantly hitting us from all sides but never with any significant force.
+
+A search for =browse market share= on Google for the [[http://bit.ly/MXfpNA][past month]] produces 45M hits. Limiting the search to the [[http://bit.ly/MXftNp][past week]] drops that number to a mere 5M.[1]
+
+ along with a steady stream of seemingly random statistics may have started the conversation. I'm sure that I shamelessy ripped off the "Lies, ..." quote from that article.
+
+* Footnotes
+
+[1] Google produced 9x hits for the previous month than it did for the previous week. Assuming stream of web pages is constant, there should roughly be 4x hits for the previous month v. the previous week. 

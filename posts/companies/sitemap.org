@@ -1,3 +1,0 @@
-#+TITLE: Sitemap for project tech-history
-
-   + [[file:2012-06-29-browser-market-share.org][---]]

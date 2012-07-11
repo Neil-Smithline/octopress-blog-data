@@ -30,3 +30,38 @@ h2:first-child, header + h2 { background: none; }
 // they just came that way? This fixes it.
 strong, b { font-weight: bold; }
 i { font-style: italic; }
+
+// Configure tables with class "centered-table"
+div.centered-table {
+  ////////////////////////////////////////////////////////////////
+  // Box centering shamelessly stolen from http://bit.ly/MhapU9
+  ////////////////////////////////////////////////////////////////
+  /* Firefox */
+  display:-moz-box;
+  -moz-box-orient:horizontal;
+  -moz-box-pack:center;
+  -moz-box-align:center;
+
+  /* Safari and Chrome */
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+  -webkit-box-pack:center;
+  -webkit-box-align:center;
+
+  /* W3C */
+  display:box;
+  box-orient:horizontal;
+  box-pack:center;
+  box-align:center;
+  ////////////////////////////////////////////////////////////////
+    
+  th.center, td.center, caption.center {
+    text-align: center;
+  }
+
+ tbody {
+   border-top: 1px solid #888888;
+  }
+}
+
+    

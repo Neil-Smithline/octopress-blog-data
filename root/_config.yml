@@ -47,10 +47,11 @@ titlecase: true       # Converts page and post titles to titlecase
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 
 # custom/asides/related.html
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, custom/asides/twitter.html, custom/asides/linked_in.html, asides/googleplus.html, custom/asides/github.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/diigo.html, custom/asides/klout.html, custom/asides/socialmention.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, custom/asides/heading-1.html, custom/asides/twitter.html, custom/asides/linked_in.html, asides/googleplus.html, custom/asides/github.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/diigo.html, custom/asides/klout.html, custom/asides/socialmention.html]
 
-# Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
-# and add an array with the asides you want to use.
+# Each layout uses the default asides, but they can have their own
+# asides instead. Simply uncomment the lines below and add an array
+# with the asides you want to use.
 # blog_index_asides:
 # post_asides:
 # page_asides:
@@ -117,6 +118,10 @@ forkme_color: red_aa0000
 ###########################################################################
 # Aside Social Links
 ###########################################################################
+
+# Social link header
+heading_1: Elsewhere On The Web
+
 
 # Google +1
 google_plus_one: true
