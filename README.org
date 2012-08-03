@@ -49,3 +49,4 @@ An example of a non-blog page is [[http://bit.ly/KVRTOM][my resume]]. It is an H
 Octopress requires blog posts to follow a standard naming convention.
 
  
+ 
