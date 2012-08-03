@@ -1,5 +1,5 @@
 * Status Of This README (and this repo in general)
-As of <2012-06-09 Sat>, this README file is a [[http://bit.ly/Np4RGn][WIP]].
+As of <2012-06-10 Sun>, this README file is a [[http://bit.ly/Np4RGn][WIP]].
 
 * Goal
 I have developed a nice Org Mode/Emacs interface built around blogging with Octopress. While I'm not sure the task will ever be completed, I'd like to create a version of this repo that has none of my blog data but contains the skeleton of a my Org Mode flavor Octopress blog as well as all of my Emacs customizations. 
@@ -48,3 +48,4 @@ An example of a non-blog page is [[http://bit.ly/KVRTOM][my resume]]. It is an H
 *** Posts
 Octopress requires blog posts to follow a standard naming convention.
 
+ 
