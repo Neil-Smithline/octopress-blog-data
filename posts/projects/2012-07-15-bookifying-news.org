@@ -1,0 +1,68 @@
+#+BEGIN_HTML
+
+---
+layout:         post
+title:          "Bookifying News"
+date:           2012-07-15 10:09
+comments:       true
+categories:     [mobile,smartphones,tech]
+published:      true
+topic_title:    'Android And Calibre'
+topic_search:   'ebook android calibre kindle'
+---
+
+#+END_HTML
+* Bookifying News
+I frequently find it convenient to take a /website on the road/. That is, I want a website or part of a website in a convenient, portable, easily accessible format on my [[http://en.wikipedia.org/wiki/Asus_Eee_Pad_Transformer][Asus Transformer]] tablet. The Transformer has [[http://en.wikipedia.org/wiki/802.11n][WiFi]] but no [[http://en.wikipedia.org/wiki/GSM_services#Data_transmission][mobile data]]. Without a portable means of accessing a website, the lack of data plan would dramatically limit the usability of my tablet.
+
+I have taken to /bookifying/ websites that I have an interest in staying up to date with (eg: [[http://xkcd.com][XKCD]]). For most sites, I only care about the newest postings. I convert the newest posting into an [[http://en.wikipedia.org/wiki/EPUB][epub]] book, load it onto my tablet, and then read it using one an [[http://en.wikipedia.org/wiki/Ebook_reader][ebook reader]].
+
+Besides bookifying the newest articles on [[http://lifehacker.com][LifeHacker]], I have also bookified entire websites.
+
+The cool part is, this process requires a one-time configuration and then works automatically. That is, the entire web sites sit on my tablet and old website articles are automatically replaced by the new ones. 
+#+HTML: <!-- more -->
+
+* The Process
+The bookification process utilizes the following tools:
+- The [[http://www.wikipedia.com/Foss][FOSS]] epub creation and library management tool [[http://en.wikipedia.org/wiki/Calibre_(software)][Calibre]].
+- The [[http://www.jrtstudio.com/CheetahSync][Cheetah Sync]] [[http://en.wikipedia.org/wiki/File_synchronization][file-synchronization]] application for [[http://en.wikipedia.org/wiki/Android_(operating_system)][Android]].
+- The [[https://play.google.com/store/apps/details?id=com.flyersoft.moonreaderp&feature=related_apps#?t=W251bGwsMSwxLDEwOSwiY29tLmZseWVyc29mdC5tb29ucmVhZGVycCJd][Moon+]] Android book reader.
+
+Calibre comes packed with features for downloading new postings on a website, converting them to an epub book, and then managing the library it creates. It has nice extras such as updating sites on a customizable schedule and allowing you to specify how many ebooks of a site you wish to keep (eg: just today's publication or an entire week's worth).
+
+Cheetah Sync provides WiFi folder synchronization between your desktop (Mac OS X or Windows) and your Android tablet. This synchronization can happen on a schedule or manually to reduce battery usage.
+
+Moon+ is one of a large number of Android book readers. It seems to facilitate being used on a rotating library such as Calibre's by monitoring a directory on the file system and responding appropriately to changes.
+
+The end product of this is the LifeHacker website on my Transformer:
+#+BEGIN_CENTER
+[[http://farm9.staticflickr.com/8284/7576840720_3b50e3b359_z.jpg]]
+#+END_CENTER
+
+As a bonus, Calibre comes with a built-in epub book reader that you can run on your desktop:
+
+#+BEGIN_CENTER
+[[http://farm9.staticflickr.com/8015/7576921304_54fbbc35b6.jpg]]
+#+END_CENTER
+
+The output is less-cluttered that the site; seeming like a [[http://readability.com][Readibility]] or [[http://instapaper.com][InstaPaper]]
+version of the all new content on the site.
+
+* Books And Websites
+Besides using Calibre to create epub books, it also does a good job of managing existing ones. For example, [[http://www.sapphiresteel.com][SapphireSteel Software]] (whose name is an esoteric reference to a late 1970's British [[http://en.wikipedia.org/wiki/Sapphire_%26_Steel][TV show]]) have published an epub book called [[http://www.sapphiresteel.com/The-Little-Book-Of-Ruby][The Little Book Of Ruby]]. I'm learning Ruby and sometimes it is nice to be able to look up something when I'm not near a WiFi connection and don't want to use my mobile WiFi hotspot as that tends to get costly quickly.
+
+Calibre also provides a means for bookifying entire websites or a specified portion of them. This works by creating a temporary copy of the website on your computer and then converting it to epub format with Calibre.
+
+Calibre provides its own [[http://manual.calibre-ebook.com/cli/web2disk.html][web2disk]] utility that can download a website to your local disk. Sites such as [[http://www.teleread.com/drm/the-abcs-of-format-conversion-for-the-kindle-sony-and-nook-plus-some-calibre-tips/][this one]] cover the details of this conversion. 
+
+I happen to be familiar with the more fleible but more complex Linux program [[http://curl.haxx.se/docs/manpage.html][curl(1)]] and tend to use that to download an entire website. This [[https://www.google.com/webhp?ie=UTF-8&ion=1#hl=en&newwindow=1&q=download+website+using+curl&qscrl=1&oq=download+website+using+curl&fp=1][Google search]] has numerous references on using curl to download a website.
+
+While Moon+ is my preference for ebook news due to its responsiveness in dealing with an externally managed library, I prefer uploading my books to [[http://amazon.com][Amazon]]'s Kindle library. For me, the Kindle's synchronization of bookmarks, notes, and current reading location are of much greater importance when I'm reading a book than when I'm reading a website. I use the [[http://www.amazon.com/gp/feature.html/ref=kcp_and_ln_ar?docId=165849822][Kindle for Android]] app on my tablet and smartphone and the [[http://www.amazon.com/gp/feature.html/ref=sv_kstore_1?ie=UTF8&docId=1000493771][Kindle for desktop or browser]] from my computer.
+
+While Kindle doesn't directly support the epub format, there are [[http://techsupport.foreverwarm.com/how-to-read-epub-books-on-your-kindle][simple directions]] for converting epub ebooks to Kindle format using Calibre. This is a page from the [[http://www.orgmode.org][Org Mode]] website ebook on my Transformer Kindle:
+
+#+BEGIN_CENTER
+[[http://farm9.staticflickr.com/8167/7577094056_656f76bc81.jpg]]
+#+END_CENTER
+
+# LocalWords:  bookifying bookified bookification

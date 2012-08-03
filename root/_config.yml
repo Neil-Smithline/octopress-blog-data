@@ -47,7 +47,7 @@ titlecase: true       # Converts page and post titles to titlecase
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
 
 # custom/asides/related.html
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, custom/asides/heading-1.html, custom/asides/twitter.html, custom/asides/linked_in.html, asides/googleplus.html, custom/asides/github.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/diigo.html, custom/asides/klout.html, custom/asides/socialmention.html]
+default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, custom/asides/heading-1.html, custom/asides/twitter.html, custom/asides/linked_in.html, asides/googleplus.html, custom/asides/github.html, custom/asides/coderwall.html, custom/asides/facebook.html, custom/asides/diigo.html, custom/asides/klout.html, custom/asides/socialmention.html, custom/asides/sharethis.html]
 
 # Each layout uses the default asides, but they can have their own
 # asides instead. Simply uncomment the lines below and add an array
@@ -70,14 +70,14 @@ github_skip_forks: true
 twitter_user: neil_smithline
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
 twitter_tweet_button: true
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
 googleplus_user: 104257546204106753046
-googleplus_hidden: false
+googleplus_hidden: true
 
 # Pinboard
 pinboard_user:
@@ -97,7 +97,6 @@ google_analytics_tracking_id: UA-25833963-1
 
 # Facebook Like
 facebook_like: false
-
 
 # Moz Affiliates
 moz_affiliates_href: //affiliates.mozilla.org/link/banner/18996
@@ -122,9 +121,8 @@ forkme_color: red_aa0000
 # Social link header
 heading_1: Elsewhere On The Web
 
-
 # Google +1
-google_plus_one: true
+google_plus_one: false
 google_plus_one_size: medium
 
 # Facebook

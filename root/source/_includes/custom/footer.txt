@@ -1,0 +1,13 @@
+                                 <p>
+                                 ===
+
+Author: Neil Smithline
+Date: 2012-07-24 18:37:51 EDT
+
+
+  Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
+  <span class="credit">Powered by <a href="[http://octopress.org]">Octopress</a></span> -
+  <span class="credit">Authored with <a href="[http://www.gnu.org/s/emacs]"">Emacs</a> and
+  <a href="[http://orgmode.org]">Org Mode</a></span> -
+  <span class="credit">Hosted by <a href="[http://github.com]">Github</a></span>
+</p>

@@ -1,0 +1,123 @@
+#+BEGIN_HTML
+---
+layout:         post
+title:          "fix me"
+date:           2012-07-10 18:09
+comments:       true
+categories:     []
+published:      false
+topic_title:    ''
+topic_search:   ''
+---
+#+END_HTML
+******* De'fink'ing and Un'port'ing Mac OS X
+There are too many accursed package managers on Mac OS X. The big problem with this is that the best one is the newest so I've installed quite a bit with the older package managers: [[http://www.macports.org/][MacPort]] and [[http://www.finkproject.org/][Fink]]. The best I can say about those package manners is that they frequently worked just fine. 
+
+
+Then, out of the large pool of talented open-source Ruby engineers, [[https://github.com/mxcl/homebrew/wiki/installation][homebrew]] emerged.
+
+Initially it was a bit short of packages but now it has a rich collection of packages. Adding new packages consists of just creating a mini Ruby script and putting it into the a Github repository (did I mention talented Ruby engineers?). 
+
+Homebrew [[http://en.wikipedia.org/wiki/Sandbox_(software_development)][sandboxes]] each package into a private directory. It then links the appropriate parts of the installed packages into the appropriate directories.
+
+Unfortunately, MacPort and Fink are a bit hard on your computer. They install things all over your computer and don't clean up after themselves. Homebrew recommends that you uninstall MacPort, Fink, and all of their packages to ensure a stable system.
+
+Despite having stopped using MacPort and Fink months ago, I've left them installed. At least until yesterday.
+
+Yesterday, my Octopress/Jekyll blog broke stopped adding new posts. On average, eexperience has shown that it is best to assume I broke the problem and try to figure out how I broke it. After an hour or two of investigation I noticed that one of my [[http://rubygems.org][gems]] was broken. I couldn't figure out what was done to break it but I could try to fix the problem.
+
+When I attacked the problem I found there was a dependency that had problems of its own. Progress was slow and painful. I was ecstatic when I got the gem working. But, alas, I immediately had a different gem giving me problems.
+
+After a couple of times around the merry-go-round I decided that three were only a few options:
+  - Remove MacPort and Fink and all of their packages as my build problems seemed associated with Homebrew's interaction with them. Removing the packages is a bit awkward as they seem to install things in many places. Fortunately, when Homebrew tells you that it found a MacPort or Fink installation, it tells you the first thing that it found and what you can do to remedy the problem. After enough iterations of this, Homebrew finally stopped finding MacPort and Fink. I think it is a bit ironic that the cleanest way to remove MacPort or Fink is to use Homebrew as a guide.
+  - Reinstall Mac OS X and start with a fresh slate. Almost certainly a winning strategy but just as certainly a time-consuming procedure. The only reason I would even consider this option is because the last time I broke my OS by double-booting it with Ubuntu I created multiple disk partitions for Mac OS X to use. It uses one for my home directory, one for installed applications (ie: =/Applications=), and one for the OS. It is only the OS partition that I would need to erase. Still, it seems time-consuming.
+  - Throw my laptop out the window. This would clearly best meet my needs for instant gratification. As I'm typing this I'm visualizing whether the MacBook would smoothly glide through the air like a frisbee, tumble end-over-end, or just drop like a rock. Personally, the frisbee visualization is the one I find most attractive. That said, I have an incidental warranty from Best Buy and my computer is already in need of a repair (the class in front of my LCD is held on with packing tape). You could say this would kill two birds with one frisbee :-)
+
+At least for now, I've decided to remove MacPort, Fink, and all of their assorted packages and then reinstall everything with Homebrew. I believe that I have excised my machine of MacPort and Fink and am now using Homebrew to reinstall all of the packages that got deleted when I 86'ed MacPort and Fink.
+
+Wish me luck...
+#+BEGIN_EXAMPLE
+
+/usr/local/Cellar/python/2.7.3: 4810 files, 82M, built in 5.1 minutes
+==> Upgrading python3
+==> Downloading http://python.org/ftp/python/3.2.3/Python-3.2.3.tar.bz2
+#################################################################################################### 100.0%
+==> ./configure --prefix=/usr/local/Cellar/python3/3.2.3 --enable-shared
+==> make
+==> make install
+==> Downloading http://pypi.python.org/packages/source/d/distribute/distribute-0.6.27.tar.gz
+Already downloaded: /Volumes/HOME/neil/Library/Caches/Homebrew/distribute-0.6.27.tar.gz
+==> /usr/local/Cellar/python3/3.2.3/bin/python3.2 setup.py install
+==> Caveats
+A "distutils.cfg" has been written, specifing the install-scripts folder as:
+  /usr/local/share/python3
+
+If you install Python packages via "python3 setup.py install", easy_install3,
+pip-3.2, any provided scripts will go into the install-scripts folder above, so
+you may want to add it to your PATH.
+
+Distribute has been installed, so easy_install is available.
+To update distribute itself outside of Homebrew:
+  /usr/local/share/python3/easy_install3 pip
+  /usr/local/share/python3/pip-3.2 install --upgrade distribute
+
+See: https://github.com/mxcl/homebrew/wiki/Homebrew-and-Python
+Apple's Tcl/Tk is not recommended for use with Python on Mac OS X 10.6.
+For more information see: http://www.python.org/download/mac/tcltk/
+
+Error: The linking step did not complete successfully
+The formula built, but is not symlinked into /usr/local
+You can try again using `brew link python3'
+==> Summary
+/usr/local/Cellar/python3/3.2.3: 4216 files, 79M, built in 4.8 minutes
+==> Upgrading transmission
+==> Downloading http://download.transmissionbt.com/files/transmission-2.60.tar.bz2
+#################################################################################################### 100.0%
+==> ./configure --prefix=/usr/local/Cellar/transmission/2.60 --disable-mac --without-gtk
+==> make
+==> make install
+==> Caveats
+This formula only installs the command line utilities.
+Transmission.app can be downloaded from Transmission's website:
+  http://www.transmissionbt.com
+==> Summary
+/usr/local/Cellar/transmission/2.60: 77 files, 4.7M, built in 73 seconds
+You have new mail in /var/mail/neil
+MAC (1510) 18:04:21 local $ brew link -f ypthon
+Error: No such keg: /usr/local/Cellar/ypthon
+MAC (1614) 18:05:14 local $ brew link -f python
+Linking /usr/local/Cellar/python/2.7.3... 2041 symlinks created
+You have new mail in /var/mail/neil
+MAC (1719) 18:05:47 local $ brew link -f python3
+Linking /usr/local/Cellar/python3/3.2.3... 4253 symlinks created
+MAC (1825) 18:06:40 local $ 
+
+
+#+END_EXAMPLE
+
+http://thoughtsthatleakedout.blogspot.com/2011/10/problem-with-gmkdir-when-updating-gems.html
+
+
+#+BEGIN_EXAMPLE
+You have new mail in /var/mail/neil
+MAC (3182) 18:20:59 tech $ brew link -f gdk-pixbuf gnutls mu
+Linking /usr/local/Cellar/gdk-pixbuf/2.26.1... 151 symlinks created
+Linking /usr/local/Cellar/gnutls/2.12.20... 673 symlinks created
+Linking /usr/local/Cellar/mu/0.9.8.4... 14 symlinks created
+You have new mail in /var/mail/neil
+MAC (3190) 18:26:19 tech $ brew upgrade
+Error: You must `brew link atk' before gtk+ can be installed
+MAC (3199) 18:26:23 tech $ brew link atk
+Linking /usr/local/Cellar/atk/2.4.0... 
+Error: Could not symlink file: /usr/local/Cellar/atk/2.4.0/lib/libatk-1.0.dylib
+Target /usr/local/lib/libatk-1.0.dylib already exists. You may need to delete it.
+To force the link and delete this file, do:
+  brew link -f formula_name
+
+To list all files that would be deleted:
+  brew link -n formula_name
+MAC (3209) 18:26:32 tech $ brew link -f atk
+Linking /usr/local/Cellar/atk/2.4.0... 86 symlinks created
+MAC (3220) 18:26:38 tech $ brew upgrade
+==> Upgrading gtk+
+#+END_EXAMPLE

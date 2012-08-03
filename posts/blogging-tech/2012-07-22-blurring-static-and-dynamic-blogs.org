@@ -1,0 +1,76 @@
+#+BEGIN_HTML
+---
+layout:         post
+title:          "Blurring Static And Dynamic Blogs"
+date:           2012-07-22 18:23
+comments:       true
+categories:     [twitter, projects, blogging-tech, octopress, jekyll, cloud-computing]
+published:      true
+topic_search:   "octopress OR (jekyll AND ruby AND blog)"
+topic_title:    "Octopress and Jekyll"
+---
+
+#+END_HTML
+
+* Static Blogging
+I've discussed the pros and cons about static blogging [[http://www.neilsmithline.com/blog/categories/blogging-tech/][many times]] before. In summary, the cons are that, well that your blog is static. No surprise there.
+
+Fortunately, there are ways to push the limits of static blogging so that it is not quite so static.
+
+* Website Hosting
+Unless you are self-hosting your [[http://octopress.org][Octopress]] or [[http://jekyllrb.com][Jekyll]] blog, you are using another site to host your blog. I host mine on Github. They have a web server running 24x7 to host it. But that's not my problem. I just use their (free) services.
+
+I understand that website hosting isn't a terribly exciting example of stretching the bubble of static blogging, but it is an example nonetheless. Dynamic blogs require specialized software running on their hosting computer to work. Static blogs tend to be able to run on generic web servers but there still must be a web server or there's no blog.
+
+* JavaScript Helps
+Out of the box, Octopress comes with some features to show your most recent tweets as well as recent activity within your [[http://github.com][Github]] repositories. This is dynamic data that Octopress implements with some JavaScript.
+
+Just to be clear, by /dynamic data/ I mean that the data displayed on the page may change without a republication of the blog. I am not necessarily referring to a scrolling widget or something. Just dynamic data. 
+
+Conversely, JavaScript can be used to dynamically display static data. That is, data that is embedded in the source of the web page. Being that the data is embedded in the page's source at or before publication time, it is assuredly /static data/.
+
+But client-side JavaScript (ie: JavaScript running in the user's browser) has its limits. For example, if you want to send a tweet whenever you add a new blog entry, client-side JavaScript is going to have a hard time at it.
+
+#+HTML: <!-- more -->
+
+* Pushing Beyond Web Hosting JavaScript
+The trick behind adding a much wider array of dynamic features to your /static/ blog is:
+#+BEGIN_QUOTE
+Integrate with external web services and let them do the work for you.
+#+END_QUOTE
+
+It is even better if you can let other sites do the hard work for you free of charge. For example, Github is hosting this blog at no cost to me. Thank you Github! But Github won't tweet about my new blog postings or search through my website. Fortunately, there are services that will happily do that for you.
+
+*** Site Search
+This blog's search functionality is provided by Google. Dynamic blogging systems such as [[http://joomla.org][Joomla]] have a large array of [[http://extensions.joomla.org/extensions/search-a-indexing][search extensions]] that you can run on your server to provide various searching features. I'm sure that they provide a much larger set of functionality than my site's Google search provides. 
+
+Richer functionality or not, each extension needs to be installed, configured, and maintained. With Octopress, you never need to think about your site's search functionality. The site comes preconfigured for Google site search. That works for me.
+
+*** Automated Tweeting
+There are many ways to tweet via an email message but there is no way, at least none that I've bothered to think through, to get Github to send emails formatted for a tweet whenever you post. But, there are many sites that will watch your blog for change and perform some activity when your blog changes.
+
+Exactly which site you use depends on what your needs are. For automated tweeting I decided to use [[http://feedburner.com/][FeedBurner]]. If you're unfamiliar with FeedBurner, it provides a web service that takes your site's RSS/Atom feed as input and adds value to that feed. My site's RSS feed is [[http://feeds.feedburner.com/MyGeekdom]]. Assuming you don't have uncommon browser settings, if you visit that URL  you will see something that looks like: 
+
+[[http://www.neilsmithline.com/assets/screen-snapshots/feedburner.png]]
+
+Amongst the multitude of options that FeedBurner provides is the ability to subscribe to a site by email. So I subscribed myself, using a unique email alias, to FeedBurner emails about updates to my site. I then created an email filter that automatically forwards the FeedBurner emails to my tweeting email address and /voila/, whenever I post a new article I automatically produce a tweet [[https://twitter.com/neil_smithline/status/227220890109218816][like this one]].
+
+*** Tracking "The Buzz"
+"The Buzz", also known as "Trending" or simply "current events", is a term to describe what is popular on the internet at any given moment. While tracking all of the internet's news doesn't seem appropriate for a blog, tracking news related to your blog posting may be desirable.
+
+Courtesy of [[http://socialmention.com][SocialMention]], many of my blog postings have current news in the sidebar (see [[http://www.neilsmithline.com/blog/2012/07/15/bookifying-news/][example blog posting]]). In many ways this is similar to tracking a Twitter #hashtag. But SocialMention gathers data from many dozens of web sites providing a richer and more diverse collection of data than Twitter can. 
+
+For example, by tracking several popular bookmarking sites such as [[http://delicious.com][Delicious]], SocialMention can tell you what pages people are bookmarking that are related to your blog posting. Most people, thankfully, don't send a tweet whenever they bookmark a site.
+
+While it may be redundant to state,
+#+BEGIN_QUOTE
+Displaying current events on your blog postings means that they will always have current information.
+#+END_QUOTE
+This means that there's no need to update your blog posting with links to relevant websites as new information becomes available. That is clearly a task that would become unmanageable as your blog grows. Instead, your /static blog/ will always have /dynamic data/ on it.
+
+* The Age Of Cloud Computing
+While my blog is far from a large operation, the advent of [[http://en.wikipedia.org/wiki/Cloud_computing][cloud computing]] has made these dynamic features possible. From tiny systems like my blog to large systems like Google's search engine, cloud computing is about wiring together the most appropriate services in a manner that produces your desired functionality with a minimal amount of setup, cost, and maintenance.
+
+While I don't have exact dates, my automated tweeting on new blog posts has been working maintenance free long enough that I forgot that I had implemented it until I noticed that I had just tweeted about my previous blog posting. I believe that is the very definition of "minimal maintenance".
+
+Given the large and growing number of web services in the cloud and my limited time to explore them, I'm sure that this is but a small sampling of the different ways to use dynamic data in static blogs.

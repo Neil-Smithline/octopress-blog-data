@@ -49,6 +49,7 @@ I am looking to add my experience and creativity to an exciting engineering team
 - Wrote the [[http://bit.ly/HJCSM7][Firefox]] add-on [[http://bit.ly/HNR3jj][AMO Up Top Version Info]] that makes searching for compatible extensions for [[http://bit.ly/IbQTRK][Mozilla]] products more efficient. Languages: /JavaScript/ and some minor /XML/.
 - Wrote an [[http://bit.ly/KT1aFT][Octopress]] blog [[http://bit.ly/LZd2tB][plugin]] that incorporates dynamic [[http://bit.ly/O5wwYM][trending]] news into the static blogging features of Octopress and its underlying engine, [[http://bit.ly/LZdurZ][Jekyll]]. An example of this plugin can be seen in the "Buzz" section of the sidebar of this [[http://bit.ly/N3kIoS][blog posting]]. Languages: /HTML/, /SCSS/, /CSS/, /YAML/.
 - Wrote numerous [[http://bit.ly/J3ouNd][GNU Emacs]] extensions: Have taken over maintenance of [[http://bit.ly/Le2Pbk][bitly.el]] and rewritten it so that it now communicates with [[Bit.ly]] asynchronously, providing dramatic performance improvements. Wrote several original packages including [[http://bit.ly/JktDTW][org-defprop]], [[http://bit.ly/JktS1q][defhook]], and [[http://bit.ly/Jku3d3][org-global-link-insert]]. Languages: /Elisp/.
+- Created several [[https://gist.github.com/neil-smithline][code snippets]] (AKA: [[https://gist.github.com/][Gists]]).
 
 *** Security Contractor/Consultant (Newton, MA), June 2008-December 2011
 **** Contractor for Aspect Security, August 2011-December 2011

@@ -15,7 +15,7 @@ topic_title:    Org Mode
 #+MACRO: relative_link           @<a href="{{ root_url }}$1" title="$2">$3@</a>
 #+MACRO: absolute_link           @<a href="http:/$1" title="$2">$3@</a>
 
-*** Update <2012-06-04 Mon 00:57> 
+*** Update <2012-06-04 Mon 00:57>
 You can download the code from its [[http://cnet.co/M2O9L8][Github repository]].
 
 * Motivation

@@ -1,0 +1,88 @@
+#+BEGIN_HTML
+---
+layout:         page
+title:          "Privacy Policy"
+date:           2012-05-21 00:11
+comments:       true
+sharing:        true
+footer:         true
+published:      false
+---
+
+#+END_HTML
+
+#+MACRO: relative_link          @<a href="{{ root_url }}$1" title="$2">$3@</a>
+#+MACRO: absolute_link          @<a href="$1" title="$2">$3@</a>
+
+* Motivation
+Being a security guy as well as an online freedom proponent, I want to have a minimally invasive, clearly documented, and easily managed privacy policy.
+
+* www.NeilSmithline.com's Privacy Policy
+As of 2012-07-15 Sun, neither [[http://neilsmithline.com][neilsmithline.com]] or any of its subdomains, henceforth referred to as /www.neilsmithline.com/ or /the site/, directly [[http://en.wikipedia.org/wiki/Ad_Tracking#Internet_tracking][tracks your usage]] of the site. While there are currently no examples, it is possible that I will add pages that display an online form, polling buttons, or some other means of gathering information from site visitors.
+
+Every attempt will be made to ensure that any such page include a clear statement as to how the collected data will be handled.
+
+Data will never be shared with any third-party without your express permission.
+
+* Third-Party Service Providers
+[[http://www.neilsmithline.com][www.neilsmithline.com]] uses third-party providers to augment the functionality of its content. How that data is handled is determined by each third-party service provider. [[http://www.neilsmithline.com/][www.neilsmithline.com]] assumes no responsibility for how these third-party service providers use collected information.
+
+* Other Sites
+All activities that take place on sites other than [[http://www.neilsmithline.com][www.neilsmithline.com]], whether the activity originated on [[http://www.neilsmithline.com][www.neilsmithline.com]] or one of the site's third-party service providers are not covered by this privacy policy.
+
+* Best Effort
+While [[http://www.neilsmithline.com][www.neilsmithline.com]] makes no claims beyond those stated above, [[http://www.neilsmithline.com][www.neilsmithline.com]] attempts to keep you informed about which third-party service providers the site uses as well as what data they collect, and, when possible, allow you to opt-out of any such data collection.
+
+As of 2012-07-15 Sun [[http://www.neilsmithline.com][www.neilsmithline.com]] uses the following third-party service providers:
+
+*** Google Analytics
+[[http://www.neilsmithline.com][www.neilsmithline.com]] uses [[http://www.google.com/analytics/][Google Analytics]] to monitor traffic on pages within the site. Data gathered via Google Analytics is never shared by [[http://www.neilsmithline.com][www.neilsmithline.com]]. That said, Google Analytics has their own [[http://www.google.com/intl/en/policies/][privacy policies]] and are free to change them at their discretion.
+***** Opting-Out
+Google Analytics provides an official yet incomplete solution to allow you to opt-out of all Google tracking. I have written a hopefully equivalent though smaller and faster solution. See the description of my [[https://github.com/Neil-Smithline/UserScripts#google-opt-out][Google Opt-Out]] UserScript for details.
+
+*** Disqus
+To be completed.
+http://help.disqus.com/customer/portal/articles/466259-privacy-policy
+***** Data in comments
+
+*** Social Mention
+To be completed.
+
+*** Share This
+[[http://www.neilsmithline.com][www.neilsmithline.com]] uses widgets from [[http://sharethis.com][ShareThis]] to provide sharing of pages to third-party social networking sites. ShareThis, per their [[http://sharethis.com/privacy][privacy policy]], tracks users who visit any page containing a ShareThis widget. As of 2012-07-15 Sun, ShareThis only *directly* uses this data to [[http://en.wikipedia.org/wiki/Aggregate_data][aggregate users]]. That is, they do not track indivuduals. The relevant portion of their [[http://sharethis.com/privacy][privacy policy]] is:
+#+BEGIN_QUOTE
+We use the Usage Information we collect and information collected from our third-party partners to /assemble non-personal, demographic and behavioral information to group users that share a common interest into "Audience Segment" Such Audience Segments are groups of users and certain general interest categories that we have inferred based on (a) demographic or interest data, (b) a general geographic location derived from you IP address, (c) the pages you view and links you click, and/or search terms you enter when using certain services. These Audience Segments do not contain Personally Identifiable Information; for example, these segments may disclose that a user located in a geographic area may be interested in cars, but this information does not identify or include the name, e-mail address, phone number, mailing address, or user name of any specific individual. We will use these Audience Segments (a) to match advertisements that may be of interest to our users that fall within that segment and (b) to assist our advertisers, ad networks, and publisher web sites to deliver advertisements and offers that may be of interest to users within a given segment.
+#+END_QUOTE
+
+That said, ShareThis's privacy policy muddies the waters by stating:
+#+BEGIN_QUOTE
+We may share non-aggregate, non-personally identifiable Usage Information, including audience segments, with third party advertisers...
+#+END_QUOTE
+
+It is unclear to me what "non-aggregate, non-personally identifiable" information is. I think it means that they track individual users but do not associate a user's name with their activities. That is sounding mighty sketchy to me...
+
+ShareThiss privacy policy further states:
+#+BEGIN_QUOTE
+Please note that these third-party publisher web sites and advertisers may independently gain other demographical information about you after they place their own cookies or web beacons. The use of cookies and pixel tags by these third-party advertisers, publishers, and ad networks are subject to their own privacy policies. We are not responsible for the information practices of these third parties. You may find a list of ShareThis' current advertising networks, if any, by clicking here. Most of these companies are members of the Network Advertising Initiative, and give you the ability to opt out of their advertising cookies and pixels at www.networkadvertising.org.
+#+END_QUOTE
+
+This text discusses two types of third-parties, /third-party publisher web sites/ and /third-party advertisers/.
+
+***** Third-Party Publisher Web Sites
+From ShareThis's perspective, an example of a /third-party publisher web site/ is Facebook. ShareThis is saying that if you share something on Facebook, leaving [[http://www.neilsmithline.com][www.neilsmithline.com]] and any site controlled by SharedThis, then the SharedThis privacy policy is no longer effective.
+
+That statement is obvious and only exists to avoid nuisance complaints and placate attorneys. The above section entitled [[Other Sites]] basically says the same thing.
+
+***** Third-Party Advertisers
+The statement about /third-party advertisers/ seems a bit more alarming to me than the other web sites statement. ShareThis is saying that we have advertisers and they can do any kind of tracking of you when you visit our site. We will let them do this, we will not ask them about what they do, we will not tell you what they do. This is similar to how the [[http://www.neilsmithline.com/blog/2012/06/14/the-new-privacy-invading-facebook-like-button/][Facebook Like]] button traces users.
+
+While I find the statement
+#+BEGIN_QUOTE
+We don't track you but advertisers can pay us to let them track you.
+#+END_QUOTE
+not very compelling in terms of privacy, it is nothing that affects [[http://www.neilsmithline.com][www.neilsmithline.com]]. SharedThis doesn't advertise on this site. They only advertise on their own site, [[http://sharedthis.com][SharedThis.com]]. As long as you do not visit 
+
+*** Github
+*** Feedburner
+*** Bitly
+*** No Ads
